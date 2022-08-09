@@ -1,0 +1,17 @@
+enable    : true
+title     : Nos enorgullece nuestro trabajo
+link      : Mira nuestro portafolio completo.
+clientLogo:
+  - image   : images/Productora/carrucel fotos/10.jpg
+  - image   : images/Productora/carrucel fotos/6.jpg
+  - image   : images/Productora/carrucel fotos/alerta kamarada 1.jpg
+  - image   : images/Productora/carrucel fotos/DSC02660.jpg
+  - image   : images/Productora/carrucel fotos/la_33.jpg
+  - image   : images/Productora/carrucel fotos/s3.jpg
+  - image   : images/Productora/carrucel fotos/44.jpg
+  - image   : images/Productora/carrucel fotos/9.jpg
+  - image   : images/Productora/carrucel fotos/ap3.jpg
+  - image   : images/Productora/carrucel fotos/DSC03263.jpg
+  - image   : images/Productora/carrucel fotos/portrait.jpg
+  - image   : images/Productora/carrucel fotos/seis peatones 1.jpg
+

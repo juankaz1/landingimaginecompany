@@ -17,27 +17,28 @@
         <div class="row">
             {{ "<!-- Contact Details -->" | safeHTML }}
             <div class="col-12 col-md-6">
-                <div class="map">
-                    <div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
+                <div class="image">
+                    <img class="img-fluid rounded" src="{{ with .Site.Params.contact.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
                 </div>
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
             <div class="contact-form col-12 col-md-6 ">
                 <form id="contact-form" method="post" action="sendmail.php" role="form">
+
                     <div class="form-group">
-                        <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+                        <input type="text" placeholder="Tu Nombre" class="form-control" name="name" id="name">
                     </div>
 
                     <div class="form-group">
-                        <input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+                        <input type="email" placeholder="Tu Email" class="form-control" name="email" id="email">
                     </div>
 
                     <div class="form-group">
-                        <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+                        <input type="text" placeholder="Tema" class="form-control" name="subject" id="subject">
                     </div>
 
                     <div class="form-group">
-                        <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+                        <textarea rows="6" placeholder="Mensaje" class="form-control" name="message" id="message"></textarea>
                     </div>
 
                     <div id="mail-success" class="success">
@@ -55,17 +56,22 @@
             </div>
         </div>
         <div class="row">
+
             <div class="col-12 col-md-4">
-                <div class="address-block contact-meta-block">
-                    <i class="tf-ion-android-pin"></i>
-                    <h4>Our Location</h4>
-                    {{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
+                <div class="phone-block contact-meta-block">
+                    <i class="tf-ion-social-linkedin"></i>
+                    <h4>Contactanos</h4>
+                    <p>
+                        {{ with .Site.Params.contact.linkedin }}{{ end }} 
+                        <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
+                    </p>
                 </div>
             </div>
+            
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
-                    <h4>Call Us</h4>
+                    <h4>Llamanos</h4>
                     <p>
                          {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
                         <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}

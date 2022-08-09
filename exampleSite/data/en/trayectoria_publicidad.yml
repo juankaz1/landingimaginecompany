@@ -1,0 +1,13 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/Publicidad/Foto superior.png
+    title : Nuestra trayectoria
+    description : >
+      Hemos realizando producciones, proyectos publicitarios, corporativos y de entretenimiento de alto impacto con agencias, marcas y compañías destacadas en el país como: Genia Publicidad, Zona Franco Publicidad, Unicentro Bogotá, Novartis, Instituto del corazón de Bucaramanga, Buchanans, Jhonny Walker, Arin Innovation, Walt Disney, Tecno mobile Col, BLK, Hamburguesas del rodeo, Fundación Solidaridad Por Colombia, Alcaldía de suba, Inversiones Strawberry entre otras.
+  - positionRight : true
+    image : images/Publicidad/Foto inferior.jpg
+    title : Algo más
+    description : >
+      Así mismo contamos con una amplia experiencia en el sector del entretenimiento y la música trabajando con festivales y artistas nacionales e internacionales como Rulo y la contrabanda, Consulado Popular, Delfina Dib, Rels B,  Ca7riel, Seis peatones, Alerta Kamarada, La 33 orquesta, Acido pantera, Rap Bang Club, Sociedad de la sombrilla, Don Tetto, TSH Zudaca, Darkness, Urdaneta, Juan por Dios, entre otros y festivales como: Dia de rock Colombia 2019/2020, Cosquin Rock Col 2019, Martin Garrix 2018, Batalla de carnavales 2017, Gira el doble de tu mitad Rulo y la contrabanda Colombia 2018, Barcú feria 2019, Caminata por la solidaridad de Colombia 2018, Un canto X Colombia 2019 entre otros.
+

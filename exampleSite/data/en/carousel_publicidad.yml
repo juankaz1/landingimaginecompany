@@ -1,0 +1,16 @@
+enable    : true
+title     : Nos enorgullece nuestro trabajo
+link      : Mira nuestro portafolio completo.
+clientLogo:
+  - image   : images/Publicidad/carrucel_fotos/18.jpg
+  - image   : images/Publicidad/carrucel_fotos/2.jpg
+  - image   : images/Publicidad/carrucel_fotos/31.jpg
+  - image   : images/Publicidad/carrucel_fotos/34.jpg
+  - image   : images/Publicidad/carrucel_fotos/36.jpg
+  - image   : images/Publicidad/carrucel_fotos/6.jpg
+  - image   : images/Publicidad/carrucel_fotos/DSCF2400.jpg
+  - image   : images/Publicidad/carrucel_fotos/fa1.jpg
+  - image   : images/Publicidad/carrucel_fotos/m5.jpg
+  - image   : images/Publicidad/carrucel_fotos/p2.jpg
+  - image   : images/Publicidad/carrucel_fotos/p6.jpg
+  - image   : images/Publicidad/carrucel_fotos/sd.jpg

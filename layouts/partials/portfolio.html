@@ -34,7 +34,9 @@
                 {{ range .item }}
                     <div class="col-6 col-md-4 padding-0 filtr-item" data-category="{{.category}}">
                         <div class="portfolio-block">
-                            <img class="img-fluid" src="{{ .image | absURL }}" alt="portfolio-image">
+                            <figure class="photo_publicidad">
+                                <img class="img-fluid" src="{{ .image | absURL }}" alt="portfolio-image">
+                            </figure>
                             <div class="caption">
                                 <a class="search-icon" href="{{ .image | absURL }}" data-lightbox="image-1">
                                     <i class="tf-ion-ios-search-strong"></i>
@@ -53,3 +55,4 @@
     {{ "<!-- End section -->" | safeHTML }}
     {{ end }}
 {{ end }}
+

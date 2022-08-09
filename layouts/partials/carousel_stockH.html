@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.carousel_stockH }}
+{{ if .enable }}
+{{ "<!-- Client Section Start -->" | safeHTML }}
+<section class="section">
+    <div class="container">
+    <div class="text_carousel">
+                {{ with .title }}<h2>{{.}}</h2>{{ end }}
+                {{ with .description }}<p>{{.}}</p>{{ end }}
+    </div>
+    <div class="row">
+            <div class="col-md-12">
+                <div id="clients-slider" class="company-gallery">
+                    {{ range .clientLogo }}
+                    <figure class="photo_publicidad">
+                        <img src="{{ .image | absURL }}" alt="client-logo">
+                    </figure>
+                    {{ end }}
+                </div>
+            </div>
+            <div class="col-md-12  text-center">
+                {{ with .link }}<a href="{{ `portfolio` | absLangURL }}" class="btn btn-main">{{ . }}</a>{{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- Client Section End -->" | safeHTML }}
+{{ end }}
+{{ end }}

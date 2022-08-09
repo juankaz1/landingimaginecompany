@@ -1,42 +1,149 @@
 enable  : true
-topTitle: RECENT WORK
-title   : WORK SHOWCASE.
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+topTitle: 
+title   : Nuestro Trabajo
+subtitle: Una imagen vale más que mil palabras, la fotografía es la mejor herramienta para el nuevo mundo digital, transmitir tus emociones, convicciones y objetivos a través de una imagen profesional.
 
 filtermenu :
-  - name      : Photography
-    category  : photography
+  - name      : Fotografía
+    category  : Fotografía
 
-  - name      : Ios App
-    category  : ios
+  - name      : Stock Housen
+    category  : stock
 
-  - name      : Development
-    category  : development
+  - name      : Publicidad
+    category  : Publicidad
 
-  - name      : Design
-    category  : design
+  - name      : Audio Visual
+    category  : Audio
 
 item   :
-  - title : AirBnB Postcard
-    image : images/portfolio/portfolio-1.jpg
-    category  : photography
+  - title : Productora
+    image : images/Productora/carrucel fotos/10.jpg
+    category  : Fotografía, Audio
 
-  - title : D Design
-    image : images/portfolio/portfolio-2.jpg
-    category  : ios, design
+  - title : Productora
+    image : images/Productora/carrucel fotos/6.jpg
+    category  : Fotografía, Audio
+  - title : Productora
+    image : images/Productora/carrucel fotos/alerta kamarada 1.jpg
+    category  : Fotografía, Audio
+  - title : Productora
+    image : images/Productora/carrucel fotos/DSC02660.jpg
+    category  : Fotografía, Audio
+  - title : Productora
+    image : images/Productora/carrucel fotos/la_33.jpg
+    category  : Fotografía, Audio
 
-  - title : Xbox 360
-    image : images/portfolio/portfolio-3.jpg
-    category  : photography, development
+  - title : Productora
+    image : images/Productora/carrucel fotos/s3.jpg
+    category  : Fotografía, Audio
 
-  - title : Ballon Card
-    image : images/portfolio/portfolio-4.jpg
-    category  : ios
+  - title : Productora
+    image : images/Productora/carrucel fotos/44.jpg
+    category  : Fotografía, Audio
 
-  - title : Ready Toons
-    image : images/portfolio/portfolio-5.jpg
-    category  : design
+  - title : Productora
+    image : images/Productora/carrucel fotos/9.jpg
+    category  : Fotografía, Audio
 
-  - title : Illustration
-    image : images/portfolio/portfolio-6.jpg
-    category  : development
+  - title : Productora
+    image : images/Productora/carrucel fotos/ap3.jpg
+    category  : Fotografía, Audio
+
+  - title : Productora
+    image : images/Productora/carrucel fotos/DSC03263.jpg
+    category  : Fotografía, Audio
+
+  - title : Productora
+    image : images/Productora/carrucel fotos/portrait.jpg
+    category  : Fotografía, Audio
+
+  - title : Productora
+    image : images/Productora/carrucel fotos/seis peatones 1.jpg
+    category  : Fotografía, Audio
+
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/18.jpg
+    category  : Fotografía, Publicidad
+
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/2.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/31.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/34.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/36.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/6.jpg
+    category  : Fotografía, Publicidad
+
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/DSCF2400.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/fa1.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/m5.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/p2.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/p6.jpg
+    category  : Fotografía, Publicidad
+  - title : Publicidad
+    image : images/Publicidad/carrucel_fotos/sd.jpg
+    category  : Fotografía, Publicidad
+ 
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/14.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/15.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/19.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/20.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/21.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/22.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/36.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/37.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/38.jpg
+    category  : Fotografía, stock
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/a1.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/a2.jpg
+    category  : Fotografía, stock
+
+  - title : Stock Housen
+    image : images/stockH/carrucel_fotos/a3.jpg
+    category  : Fotografía, stock

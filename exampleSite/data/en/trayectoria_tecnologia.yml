@@ -1,0 +1,8 @@
+enable  : true
+cta     : Prepárense para nuestra próxima temporada!
+item    :
+  - positionRight : false
+    image : images/tecnologia/network.jpg
+    title : Sobre Nosotros
+    description : >
+     Nuestros servicios de tecnología apuntan a las necesidades de nuestros clientes en temas de analítica de datos e inteligencia empresarial, aplicativos CRM, desarrollos web, desarrollos de IA y consultoría en transformación digital. Ofrecemos una línea de servicios de alta calidad con los mejores precios del mercado nacional.

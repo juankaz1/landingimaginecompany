@@ -1,0 +1,10 @@
+{{ if .Site.Params.video_init.enable }}
+{{ "<!-- Hero Area -->" | safeHTML }}
+<section class="video_init-area">
+    <div class="animation_hero">
+        <figure> 
+            <img class="img-animation" src="{{ with .Site.Params.video_init.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
+        </figure>
+    </div>
+</section>
+{{ end }}

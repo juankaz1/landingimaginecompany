@@ -1,0 +1,17 @@
+enable    : true
+title     : Nos enorgullece nuestro trabajo
+link      : Mira nuestro portafolio completo.
+clientLogo:
+  - image   : images/stockH/carrucel_fotos/14.jpg
+  - image   : images/stockH/carrucel_fotos/15.jpg
+  - image   : images/stockH/carrucel_fotos/19.jpg
+  - image   : images/stockH/carrucel_fotos/20.jpg
+  - image   : images/stockH/carrucel_fotos/21.jpg
+  - image   : images/stockH/carrucel_fotos/22.jpg
+  - image   : images/stockH/carrucel_fotos/36.jpg
+  - image   : images/stockH/carrucel_fotos/37.jpg
+  - image   : images/stockH/carrucel_fotos/38.jpg
+  - image   : images/stockH/carrucel_fotos/a1.jpg
+  - image   : images/stockH/carrucel_fotos/a2.jpg
+  - image   : images/stockH/carrucel_fotos/a3.jpg
+

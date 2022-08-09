@@ -1,21 +1,10 @@
 enable    : true
-title     : We care about our work
-description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorem, saepe ab, optio obcaecati id asperiores. Ab ullam qui architecto at eos distinctio debitis, libero reprehenderit excepturi rem ut odit est nam magni ratione necessitatibus, quod eaque, eius minima tempora deleniti illum aliquam! Perferendis optio dolorum blanditiis sapiente aperiam quaerat.
-image     : images/about/about-1.jpg
-servicelist:
-  - name    : Creative Designers
-  - name    : Genius Developers
-  - name    : Growth Hackers
-  - name    : Marketing Masterminds
+title     : Confian en nosotros
 clientLogo:
-  - image   : images/client-logo/logo1.png
-  - image   : images/client-logo/logo-2.png
-  - image   : images/client-logo/logo-3.png
-  - image   : images/client-logo/logo-4.png
-  - image   : images/client-logo/logo-5.png
-  - image   : images/client-logo/logo1.png
-  - image   : images/client-logo/logo-2.png
-  - image   : images/client-logo/logo-3.png
-  - image   : images/client-logo/logo-4.png
-  - image   : images/client-logo/logo-5.png
+  - image   : images/image_car/empresas_logos/Logo-Solidaridad-por-colombia.png
+  - image   : images/image_car/empresas_logos/Logo blk.png
+  - image   : images/image_car/empresas_logos/genia.jpeg
+  - image   : images/image_car/empresas_logos/logo_rodeo.png
+  - image   : images/image_car/empresas_logos/Logo-ICB-sin-fondo.png
+  - image   : images/image_car/empresas_logos/Logo TecnoMobile.png
+

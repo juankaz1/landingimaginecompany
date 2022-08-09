@@ -1,0 +1,24 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.carousel }}
+    {{ if .enable }}
+    {{ "<!-- Client Section Start -->" | safeHTML }}
+    <section class="section">
+        <div class="container">
+        <div class="text_carousel">
+                    {{ with .title }}<h2>{{.}}</h2>{{ end }}
+                    {{ with .description }}<p>{{.}}</p>{{ end }}
+        </div>
+        <div class="row">
+                <div class="col-md-12">
+                    <div id="clients-slider" class="clients-logo-slider">
+                        {{ range .clientLogo }}
+                        <img src="{{ .image | absURL }}" alt="client-logo">
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{ "<!-- Client Section End -->" | safeHTML }}
+    {{ end }}
+{{ end }}

@@ -1,0 +1,14 @@
+enable  : true
+cta     : Prepárense para nuestra próxima temporada!
+item    :
+  - positionRight : false
+    image : images/stockH/16.jpg
+    title : Sobre Nosotros
+    description : >
+      Somos una propuesta audiovisual innovadora donde exponemos distintas escenas culturales a nivel capital como nacional; difundiendo las nuevas propuestas musicales, temas de interés, eventos y tendencias en un espacio único para el entretenimiento del público Colombiano.
+  - positionRight : true
+    image : images/stockH/a6.jpg
+    title : Algo màs
+    description : >
+      Contamos con una experiencia de más de 4 años en el sector musical y de entretenimiento, donde tuvimos la oportunidad de trabajar a través de nuestros contenidos con diferentes artistas, eventos y festivales destacados como: Rels B, Martin Garrix, Rulo y La Contrabanda, Sin Ánimo De Lucro, Delfina Dib, La 33 Orquesta, Rap Bang Club, Consulado Popular, Acido Pantera, Don Tetto, 6 Peatones, Darkness, Ca7riel, TSH Zudaca, Soy Emilia, Juan por Dios, La sociedad de la Sombrilla, Bomba Estéreo, Toto la Momposina, Dia de Rock Colombia, Un Canto X Colombia, Cosquin Rock Col, Noches Fiera, Caminata Solidaridad por Colombia, Jamesson Sessions, Barcú Feria, entre otros.  
+

@@ -1,24 +1,16 @@
-[about]
-other = "About"
-[service]
-other = "Service"
+[stockhousen]
+other = "Stock Housen"
+[publicidadymercadeo]
+other = "Publicidad"
+[audiovisualycomercial]
+other = "Audiovisual"
+[tecnologia]
+other = "Tecnologia"
+#[entretenimiento]
+#other = "Entretenimiento"
+
+
 [portfolio]
-other = "Portfolio"
-[blog]
-other = "Blog"
+other = "Portafolio"
 [contact]
-other = "Contact"
-
-[graphicdesign]
-other = "Graphic Design"
-[webdesign]
-other = "Web Design"
-[webdevelopment]
-other = "Web Development"
-
-[partners]
-other = "Partners"
-[faqs]
-other = "FAQ's"
-[badges]
-other = "Badges"
+other = "Contacto"

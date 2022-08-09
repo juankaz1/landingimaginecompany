@@ -1,0 +1,28 @@
+enable  : true
+topTitle: 
+title   : Descubre nuestros servicios
+subtitle: 
+
+member  :
+  - image         : images/tecnologia/BIIA.jpeg
+    name          : ANALÍTICA EMPRESARIAL (B.I - A.I)
+    designation   : 
+    description   : >
+      Analizamos datos para la inteligencia empresarial con énfasis en soluciones de problemas logísticos y estudio de redes. Garantizamos aprovechar al máximo la información mediante una amplia gama de técnicas de modelado y simulación estadística, abriendo posibilidades de desarrollos a la medida con la última generación en tecnología de inteligencia artificial.
+
+  - image         : images/tecnologia/ERP.jpg
+    name          : E.R.P
+    designation   :
+    description   : >
+      Diseñamos y desarrollamos de manera personalizada para su empresa una plataforma y aplicativo E.R.P. con miras al fortalecimiento estratégico de la productividad y escalabilidad a nivel operativo, comercial y/o corporativo de sus objetivos.
+  - image         : images/tecnologia/web.jpeg
+    name          : DESARROLLOS WEB
+    designation   : 
+    description   : >
+      Diseñamos y desarrollamos sitios web personalizados con seguridad SSL y técnicas SEO de acuerdo a las necesidades de su empresa para llevar su presencia digital al frente de la revolución del e-commerce.
+
+  - image         : images/tecnologia/consulting.jpg
+    name          : CONSULTORÍA EN TRANSFORMACIÓN DIGITAL
+    designation   : 
+    description   : >
+      Nuestras consultorías están diseñadas para generar, a través del recurso de asesoría, todo el acompañamiento que su empresa requiere para cualquier tipo de decisión en términos de innovación, procesos en transformación digital o migración tecnológica, desde la digitalización de archivos hasta la optimización y expansión digital de procesos internos.

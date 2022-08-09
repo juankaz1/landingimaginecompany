@@ -1,0 +1,13 @@
+enable    : true
+title     : Nos enorgullece nuestro trabajo
+link      : Mira nuestro portafolio completo.
+clientLogo:
+  - image   : images/home/imagenes_video/img1.jpg
+  - image   : images/home/imagenes_video/img2.jpg
+  - image   : images/home/imagenes_video/img3.jpg
+  - image   : images/home/imagenes_video/img4.jpg
+  - image   : images/home/imagenes_video/img5.jpg
+  - image   : images/home/imagenes_video/img6.jpg
+  - image   : images/home/imagenes_video/img7.jpg
+  - image   : images/home/imagenes_video/img8.jpg
+

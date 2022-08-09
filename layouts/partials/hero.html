@@ -2,6 +2,11 @@
 {{ "<!-- Hero Area -->" | safeHTML }}
 <section class="hero-area">
     <div class="container">
+        <div class="text-center titulo">
+            {{ with .Site.Params.hero.heading }}
+            <h2>{{ . }}</h2>
+            {{ end }}
+        </div>
         <div class="row">
             <div class="col-md-6">
                 <div class="video-player">
@@ -13,22 +18,81 @@
             </div>
             <div class="col-md-6">
                 <div class="block">
-                    {{ with .Site.Params.hero.heading }}
-                        <h2>{{ . }}</h2>
-                    {{ end }}
-                    {{ with .Site.Params.hero.description }}
-                        <p>{{ . }}</p>
-                    {{ end }}
-                    {{ if .Site.Params.hero.button }}
-                        <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
-                            <li class="list-inline-item">
-                                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
-                            </li>
-                        </ul>
-                    {{ end }}
+                    <ul>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                    <figure class="logo_area">
+                                        <img src="images/home/logo_tecnologia.png" alt="logo_area"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                        <h3> Tecnología</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                    <figure class="logo_area">
+                                        <img src="images/home/logo_Stock.png" alt="logo_area"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                        <h3> Stock Housen</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                    <figure class="logo_area">
+                                        <img src="images/home/logo_mercadeo.png" alt="logo_area"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                        <h3> Publicidad & Mercadeo</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                    <figure class="logo_area">
+                                        <img src="images/home/logo_audiovisual.png" alt="logo_area"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="http://www3.uji.es/~dgonzale/cpdf11/cursof.pdf"> 
+                                        <h3> Audiovisual & Comercial</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                    </ul>
+
                 </div>
             </div>
         </div>
+        {{ if .Site.Params.hero.button }}
+        <ul class="list-inline wow fadeInUp text-center button" data-wow-duration=".5s" data-wow-delay=".7s">
+            <li class="list-inline-item">
+                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
+            </li>
+        </ul>
+    {{ end }}
+
     </div>
 </section>
 {{ end }}
