@@ -144,11 +144,6 @@ url = "tecnologia/"
 weight = 4
 
 [[menu.nav]]
-name = "entretenimiento"
-url = "entretenimiento/"
-weight = 5
-
-[[menu.nav]]
 name = "portfolio"
 url = "portfolio/"
 weight = 6
