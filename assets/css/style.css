@@ -657,8 +657,6 @@ a:focus, a:hover {
   object-fit: cover;
 }
 
-
-
 .hero-area {
   padding: 10px 0;
   position: relative;
@@ -675,6 +673,10 @@ a:focus, a:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
 
 }
+
+.fondo {
+  background-size: cover;
+ }
 
 .titulo{
   margin: 20px;
@@ -759,10 +761,8 @@ padding: 2px;
   display: flex;
   flex-direction: flex;
   object-fit: cover;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
+  width: 70px;
+  height: 70px;
 
 
 }
@@ -984,6 +984,23 @@ padding: 2px;
 
 .call-to-action .btn-main, .call-to-action .btn-main-sm {
   margin-top: 20px;
+}
+
+.principal_products .container{
+  display: flex;
+}
+
+.team_principal{
+  background: linear-gradient(0.25turn, hsl(48, 56%, 55%), #f5d872, #f7e9a2);
+
+}
+.team_principal .container .row {
+  display: flex !important;
+  vertical-align: top;
+  background-size: cover;
+  justify-content: space-evenly;
+  padding: 5x;
+
 }
 
 /*=================================================================
@@ -1567,7 +1584,7 @@ padding: 2px;
   Our Team
   ==================================================================*/
 .team-member {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.36);
   margin-bottom: 15px;
 }
 

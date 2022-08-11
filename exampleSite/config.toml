@@ -37,18 +37,18 @@ description = "This is meta description"
 ############# 2 - Site en ENGLISH
 [Languages.en]
 weight = 2
-languageCode = "en-us"
+languageCode = "es-co"
 title = "Imagine Company SAS"
 dateFormat = "January 2, 2006"
 home = "Home"
 logo = "images/logo3.png"
 menufixed = true
 
-footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerServiceTitle = "Service"
-footerQuicklinkTitle = "Quicklinks"
-footerAboutTitle = "About"
-footerSubscribeTitle = "Subscribe"
+#footerDescription = ""
+#footerServiceTitle = "Service"
+#footerQuicklinkTitle = "Quicklinks"
+#footerAboutTitle = "About"
+#footerSubscribeTitle = "Subscribe"
 
 
 # cookies
@@ -61,14 +61,13 @@ expire_days = 2
 enable = true
 heading = "Conoce nuestro trabajo."
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
-button = true
+button = false
 btnText = "Contactanos"
 btnURL = "contact/"
-videoThumb = "https://i.ytimg.com/vi/oxKohfzkV6U/hqdefault.jpg"
+videoThumb = "https://i.ytimg.com/vi/oxKohfzkV6U/hqdefault.jpg" 
 videoURL = "https://www.youtube.com/embed/oxKohfzkV6U"
 logo1 ="images/home/logo_tecnologia.png"
-
-
+enable_footer = false
 
 
 # Hero Area Section
@@ -116,6 +115,7 @@ bg = "images/home/Foto superior.jpg"
 title = "IMAGINE CREDIT"
 subtitle = "Presentamos a nuestros clientes una opción de financiamiento para la adquisición inmediata de cualquiera de los productos y servicios de nuestra compañía, a partir de pago en cuotas o pagos extendidos con una tasa preferencial que varía según el perfil del cliente en medida de persona jurídica o natural en un marco del 1.5% hasta el 2.78, mediante nuestro sistema de crédito en alianza estratégica con el Banco Caja Social."
 btnText = "Contactanos"
+bg2 = "images/portfolio/p13.jpg"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
