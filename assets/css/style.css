@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
 body {
   line-height: 1.4;
-  font-family: "Titillium Web", sans-serif;
+  /*font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; */
+  font-family: "Impact", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Impact", sans-serif;
   color: #9a9a9a;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Impact", sans-serif;
   font-weight: 600;
 }
 
@@ -65,7 +65,7 @@ a:focus, a:hover {
 }
 
 .btn-main-sm {
-  padding: 8px 20px;
+  padding: 8px 2px;
   font-size: 12px;
 }
 
@@ -75,7 +75,7 @@ a:focus, a:hover {
   display: inline-block;
   font-size: 13px;
   letter-spacing: 1px;
-  padding: 10px 40px;
+  padding: 1px 4px;
   text-transform: uppercase;
 }
 
@@ -88,7 +88,7 @@ a:focus, a:hover {
 }
 
 .mt-20 {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .mt-30 {
@@ -438,7 +438,7 @@ a:focus, a:hover {
 .header-bradcrumb a, .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Impact", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -643,7 +643,7 @@ a:focus, a:hover {
 }
 
 .hero-area .container .button{
-  margin: 20px;
+  margin: 2px;
 }
 
 .animation_hero figure {
@@ -679,7 +679,7 @@ a:focus, a:hover {
  }
 
 .titulo{
-  margin: 20px;
+  margin: 2px;
 }
 
 .video_hero_gen{
@@ -723,12 +723,12 @@ a:focus, a:hover {
 
 .hero-area .block h2 {
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .hero-area .block p {
   color: #707d8f;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .hero-area .block .list-inline {
@@ -777,7 +777,7 @@ padding: 2px;
   align-items: center;
   vertical-align: middle;
   text-align: center;
-  margin: 10px;
+  margin: 0px;
 }
 
 .texto_area a h3 {
@@ -871,7 +871,7 @@ padding: 2px;
 .hero-area-video .block h1 {
   font-size: 60px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .hero-area-video .block p {
@@ -879,11 +879,11 @@ padding: 2px;
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .hero-area-video .block .btn-main, .hero-area-video .block .btn-main-sm {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .dark-bg {
@@ -922,7 +922,7 @@ padding: 2px;
 
 .about p {
   line-height: 1.6;
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .about .content {
@@ -983,7 +983,7 @@ padding: 2px;
 }
 
 .call-to-action .btn-main, .call-to-action .btn-main-sm {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .principal_products .container{
@@ -1022,19 +1022,19 @@ padding: 2px;
 }
 
 .call-to-action-2 .btn-main, .call-to-action-2 .btn-main-sm {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 /*=================================================================
   Contact
   ==================================================================*/
 .contact-form {
-  margin-bottom: 40px;
+  margin-bottom: 4px;
 }
 
 @media (max-width: 768px) {
   .contact-form {
-    margin-top: 20px;
+    margin-top: 2px;
   }
 }
 
@@ -1074,16 +1074,16 @@ padding: 2px;
 }
 
 .contact-details .contact-short-info {
-  margin-top: 15px;
+  margin-top: 1px;
 }
 
 .contact-details .contact-short-info li {
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 .social-icon li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 .social-icon li a {
@@ -1129,8 +1129,8 @@ padding: 2px;
 }
 
 .contact-meta-block {
-  margin-top: 30px;
-  padding: 40px 0;
+  margin-top: 3px;
+  padding: 4px 0;
   min-height: 250px;
   text-align: center;
   background: #fff;
@@ -1141,7 +1141,7 @@ padding: 2px;
 .contact-meta-block > i {
   display: block;
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 /*=================================================================
@@ -1195,16 +1195,16 @@ padding: 2px;
   Pricing section
 ==================================================================*/
 .pricing-table .pricing-item {
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   border-radius: 3px;
-  padding-bottom: 40px;
+  padding-bottom: 4px;
   text-align: center;
   background: #f9f9f9;
 }
 
 .pricing-table .pricing-item a.btn-main, .pricing-table .pricing-item a.btn-main-sm {
   text-transform: uppercase;
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .pricing-table .pricing-item ul {
@@ -1442,7 +1442,7 @@ padding: 2px;
   color: #fff;
   height: 55px;
   line-height: 55px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
   width: 55px;
   transition: all 0.3s ease 0s;
 }
@@ -1500,11 +1500,11 @@ padding: 2px;
 }
 
 .clients-logo-slider {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .photos-slider {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .text_carousel{
@@ -1516,7 +1516,7 @@ padding: 2px;
 }
 
 .clients-image-slider{
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 
@@ -1724,7 +1724,7 @@ padding: 2px;
 }
 
 .post-item .post-title {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .post-item .post-title h3 {
@@ -1856,11 +1856,11 @@ padding: 2px;
 }
 
 .comment-list ul {
-  margin-top: 20px;
+  margin-top: 2px;
 }
 
 .comment-list ul li {
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .comment-wrap {
@@ -1948,7 +1948,7 @@ padding: 2px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 
 .top-footer p {
@@ -1967,7 +1967,7 @@ padding: 2px;
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: color .3s;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Impact", sans-serif;
   display: block;
 }
 
@@ -1988,8 +1988,8 @@ padding: 2px;
   color: #888888;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 7px;
-  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-bottom: 1px;
 }
 
 .footer-bottom h6 {
