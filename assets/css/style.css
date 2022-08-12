@@ -1,7 +1,7 @@
 body {
   line-height: 1.4;
   /*font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; */
-  font-family: "Impact", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -894,6 +894,16 @@ padding: 2px;
   z-index: -1;
 }
 
+.low_cost{
+/*  background-color: #c6b36c; */
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
+
+}
+.about-mission-vision {
+  background-color: #666;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
+
+}
 /*=================================================================
   About us section
 ==================================================================*/
@@ -933,6 +943,14 @@ padding: 2px;
   .about .content {
     padding: 5px 0;
   }
+}
+
+.about_low_cost{
+  background-color: #343137;
+}
+
+.center {
+  text-align: center;
 }
 
 /*=================================================================
