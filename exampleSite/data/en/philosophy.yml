@@ -1,13 +1,13 @@
 enable    : true
 topTitle  : 
-title     : Nuestros Servicios clave
+title     : Nuestros Servicios Low Cost
 subtitle  : 
 tabItem   :
   - id        : Comercial
     title     : Comercial Low Cost
     heading   : 
     content   : >
-      Nuestra compañía pionera en innovación digital y comunicación trasmedia, está comprometida con la reactivación comercial del país, es por esto que diseñamos un nuevo servicio enfocado a las pequeñas y medianas empresas, el cual busca activar sus comercios para las temporadas de alta demanda venideras a través de recursos audiovisuales de alto impacto a manera de comerciales profesionales en formato Full HD / 2K para redes sociales y plataformas web de nuestros clientes. 
+      Nuestra compañía pionera en innovación digital y comunicación trasmedia, está comprometida con la reactivación comercial del país, es por esto que diseñamos un nuevo servicio enfocado a las pequeñas y medianas empresas, el cual busca activar sus comercios para las temporadas de alta demanda venideras a través de recursos audiovisuales de alto -apple-systemo a manera de comerciales profesionales en formato Full HD / 2K para redes sociales y plataformas web de nuestros clientes. 
     image     : images/Productos/p10.jpg
 
   - id        : Videoclip
@@ -16,11 +16,4 @@ tabItem   :
     content   : >
       Nuestra compañía pionera en innovación digital comunicación trasmedia, está comprometida con la reactivación comercial del país y sus industrias culturales, es por esto que diseñamos un nuevo servicio audiovisual el cual pone al alcance de los artistas emergentes nuestra infraestructura audiovisual a bajo costo y con formas de pago, a través de un formato de alta calidad que llevará la narrativa de tus mensajes a un nuevo nivel.
     image     : images/Productos/camm.jpg
-
-  - id        : Medical
-    title     : Medical Communication
-    heading   : 
-    content   : >
-     Presentamos nuestro nuevo servicio enfocado en la optimización de comunicación de marca entre nuestros clientes y sus usuarios, a través de diferentes formatos audiovisuales los cuales tienen como objeto entregar a los usuarios del cliente o sus empleados, información esencial en la ejecución de trámites, procedimientos médicos, métodos diagnósticos, oferta de servicios e información general.
-    image     : images/Productos/p4.jpg
 

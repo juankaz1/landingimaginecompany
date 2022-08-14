@@ -1,0 +1,47 @@
+enable  : true
+topTitle: 
+foto_fondo: images/home/fondo.jpg
+title   : Accede a nuestros servicios. 
+subtitle: 
+
+member  :
+  - image         : images/Productos/p10.jpg
+    name          : Cápsula proc. Médico
+    designation   : 
+    description   : >
+      Video resumen formato cápsula. Explicado con diferentes procedimientos, apoyado por recurso Gráfico y 3D.
+
+
+  - image         : images/Productos/camm.jpg
+    name          : Método y Diagnóstico
+    designation   : 
+    description   : >
+      Explicativo de funcionamiento método y diagnóstico. Apoyado de Motion Graphics.
+
+  
+  - image         : images/Productos/p4.jpg
+    name          : Trámite para Procedimiento
+    designation   : 
+    description   : >
+      Animación del proceso administrativo, solicitud, documentación, trámite para servicio del cliente.
+
+  - image         : images/Productos/p4.jpg
+    name          : Capacitacion & Comunicacion Interna
+    designation   : 
+    description   : >
+      Infraestructura de comunicación interna, video informe objetivo y estandarizada, capacitación e información vital de personal.
+
+  - image         : images/Productos/p4.jpg
+    name          : Comercial Marca
+    designation   : 
+    description   : >
+      Pieza audiovisual de 30 seg. Presentacion & valores de empresa con infraestructura.
+
+
+
+
+
+
+
+
+

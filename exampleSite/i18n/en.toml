@@ -9,6 +9,8 @@ other = "Tecnologia"
 #[entretenimiento]
 #other = "Entretenimiento"
 
+[medical]
+other = "Comunicación Médica"
 
 [portfolio]
 other = "Portafolio"

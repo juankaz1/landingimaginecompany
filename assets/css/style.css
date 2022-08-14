@@ -1,18 +1,18 @@
 body {
   line-height: 1.4;
-  /*font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; */
+  /*font-family: -apple-system,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; */
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Impact", sans-serif;
+  font-family: "-apple-system", sans-serif;
   color: #9a9a9a;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Impact", sans-serif;
+  font-family: "-apple-system", sans-serif;
   font-weight: 600;
 }
 
@@ -367,7 +367,7 @@ a:focus, a:hover {
 }
 
 .title {
-  padding-bottom: 50px;
+  padding-bottom: 1px;
   text-align: center;
 }
 
@@ -438,7 +438,7 @@ a:focus, a:hover {
 .header-bradcrumb a, .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Impact", sans-serif;
+  font-family: "-apple-system", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -763,7 +763,8 @@ padding: 2px;
   object-fit: cover;
   width: 70px;
   height: 70px;
-
+  padding: 5px;
+  margin: 5px;
 
 }
 
@@ -900,7 +901,7 @@ padding: 2px;
 
 }
 .about-mission-vision {
-  background-color: #666;
+  background-color: rgb(229, 227, 227);
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
 
 }
@@ -1985,7 +1986,7 @@ padding: 2px;
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: color .3s;
-  font-family: "Impact", sans-serif;
+  font-family: "-apple-system", sans-serif;
   display: block;
 }
 

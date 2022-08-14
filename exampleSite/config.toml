@@ -144,6 +144,12 @@ url = "tecnologia/"
 weight = 4
 
 [[menu.nav]]
+name = "medical"
+url = "medical/"
+weight = 5
+
+
+[[menu.nav]]
 name = "portfolio"
 url = "portfolio/"
 weight = 6
@@ -152,6 +158,10 @@ weight = 6
 name = "contact"
 url = "contact/"
 weight = 7
+
+
+
+
 
 # Footer Service Menu
 [[menu.service]]

@@ -1,6 +1,6 @@
 ---
 title: "Stock Housen"
-date: 2018-07-07T14:53:13+06:00
+date: 
 draft: false
-description: "This is meta description"
+description: "Stock Housen "
 ---
