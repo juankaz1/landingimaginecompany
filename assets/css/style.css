@@ -650,6 +650,17 @@ margin: 0px !important  ;
 
 }
 
+.hero-area-st{
+  padding: 35px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34) !important;
+}
+
+
+.hero-area-st .container .button{
+  margin: 2px;
+}
+
+
 .hero-area .container .button{
   margin: 2px;
 }
@@ -857,6 +868,10 @@ padding: 2px;
   margin-left: 5px;
 }
 
+.titulo_dorado h2{
+  color: #af9c57 !important;
+
+}
 
 .hero-area-video {
   height: 100vh;

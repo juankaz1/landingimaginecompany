@@ -70,7 +70,23 @@ logo1 ="images/home/logo_tecnologia.png"
 enable_footer = false
 
 
-# Hero Area Section
+# Hero Area Section st
+[Languages.en.params.hero_st]
+enable = true
+heading = "Conoce nuestro magazine"
+description = "Somos una propuesta audiovisual innovadora donde exponemos distintas escenas culturales a nivel capital como nacional; difundiendo las nuevas propuestas musicales, temas de interés, eventos y tendencias en un espacio único para el entretenimiento del público Colombiano."
+button = false
+btnText = "Contactanos"
+btnURL = "contact/"
+videoThumb = "images/stockH/16.jpg" 
+videoURL = "https://www.youtube.com/embed/YaternZ03fc"
+enable_footer = true
+
+
+
+
+
+# Hero Area Section video_init
 [Languages.en.params.video_init]
 enable = true
 videoThumb = "images/ibanner.gif"

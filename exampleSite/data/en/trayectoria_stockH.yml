@@ -1,11 +1,6 @@
 enable  : true
 cta     : Prepárense para nuestra próxima temporada!
-item    :
-  - positionRight : false
-    image : images/stockH/16.jpg
-    title : Sobre Nosotros
-    description : >
-      Somos una propuesta audiovisual innovadora donde exponemos distintas escenas culturales a nivel capital como nacional; difundiendo las nuevas propuestas musicales, temas de interés, eventos y tendencias en un espacio único para el entretenimiento del público Colombiano.
+item    : 
   - positionRight : true
     image : images/stockH/a6.jpg
     title : Algo más
