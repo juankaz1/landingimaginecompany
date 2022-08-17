@@ -7,7 +7,7 @@ filtermenu :
   - name      : Fotografía
     category  : Fotografía
 
-  - name      : Stock Housen
+  - name      : StockHausen
     category  : stock
 
   - name      : Publicidad
@@ -101,49 +101,49 @@ item   :
     image : images/Publicidad/carrucel_fotos/sd.jpg
     category  : Fotografía, Publicidad
  
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/14.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/15.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/19.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/20.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/21.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/22.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/36.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/37.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/38.jpg
     category  : Fotografía, stock
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/a1.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/a2.jpg
     category  : Fotografía, stock
 
-  - title : Stock Housen
+  - title : StockHausen
     image : images/stockH/carrucel_fotos/a3.jpg
     category  : Fotografía, stock
