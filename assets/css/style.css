@@ -811,6 +811,7 @@ padding: 2px;
 
 .video-player {
   width: 100%;
+  padding-top: 39px;
 }
 
 .video-player iframe {
@@ -866,6 +867,7 @@ padding: 2px;
   line-height: 80px;
   font-size: 30px;
   margin-left: 5px;
+  vertical-align: middle;
 }
 
 .titulo_dorado h2{

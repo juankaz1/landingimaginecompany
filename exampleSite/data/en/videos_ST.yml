@@ -5,30 +5,30 @@ subtitle  :
 tabItem   :
   - id        : VIP_show
     title     : VIP show
-    heading   : 
+    heading   : VIP show
     content   : El escenario de live sessions con los artistas más destacados de la actualidad. Conceptualizamos el trabajo del artista hacia otros panoramas musicales no explorados y afines a la idea original, siempre enfocados en la innovación sonora del producto y los aspectos comerciales que busca entregar el artista en su producción musical. Creamos piezas musicales únicas que apoyan la promoción del sencillo original y el alcance que busca lograr el artista.
     videoURL: https://www.youtube.com/embed/fnJIvxYWWJE
-    videoThumb: images/stockH/a6.jpg
+    videoThumb: images/stockH/6.jpg
 
   - id        : Corre_voz
     title     : Corre la voz
-    heading   : 
+    heading   : Corre la voz
     content   : Es nuestro formato aftermovie documental que muestra la experiencia de los mejores conciertos y festivales del medio, con voz imagen y testimonio de los grandes artistas participantes. Aprovechamos las características del contenido para transmitir al público una sección donde podrá enterarse de primera mano y con lujo de detalle la experiencia del evento desde la perspectiva de los artistas.
-    videoURL: https://www.youtube.com/embed/fnJIvxYWWJE
-    videoThumb: images/Productos/p2.jpg
+    videoURL  : https://www.youtube.com/embed/0KgI1ZVvxLk
+    videoThumb: images/stockH/9.jpg
 
   - id        : Living_Bogota
     title     : Living Bogota
-    heading   : 
+    heading   : Living Bogota
     content   : Un espacio que informa sobre las mejores celebraciones y fiestas en bogotá, y que permite revivir estas experiencias a través de nuestro cubrimiento y exposición con producción audiovisual de alta calidad.
     videoURL: https://www.youtube.com/embed/EqIytK75xLs
-    videoThumb: images/stockH/a6.jpg
+    videoThumb: images/stockH/m27.jpg
 
   - id        : Music_Lab 
     title     : Music Lab 
-    heading   : 
+    heading   : Music Lab 
     content   : Una sección diseñada para la interacción de artistas, músicos, compositores y productores de alto nivel quienes se reunirán en una ejecución artística con el fin de aplicar sus virtudes y conocimientos a la creación de producciones ambiciosas y experimentales en el ámbito musical, con el fin de realizar piezas musicales inéditas aplicando técnicas innovadoras poco usuales y sumamente creativas rompiendo los esquemas y paradigmas de la industria desde un punto de vista artístico, profesional totalmente atrevido e innovador.
-    videoURL: https://www.youtube.com/embed/EqIytK75xLs
-    videoThumb: images/Productos/p2.jpg
+    videoURL: https://www.youtube.com/embed/80DKPl2Jg5I
+    videoThumb: images/stockH/ap7.jpg
 
 
