@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col">
                 <div class="title text-center">
-                    {{ with .Site.Params.contact.title }}
+                    {{ with .Site.Params.contact.title }} 
                     <h2>{{.}}</h2>
                     <span class="border"></span>
                     {{ end }}
@@ -72,7 +72,7 @@
                     <i class="tf-ion-ios-telephone"></i>
                     <h4>Llamanos</h4>
                     <p>
-                         {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
+                         {{ with .Site.Params.contact.phone }} {{.}} {{ end }} 
                         <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
                     </p>
                 </div>
@@ -80,19 +80,12 @@
             <div class="col-12 col-md-4">
                 <div class="social-icons-block contact-meta-block">
                     <i class="tf-ion-ios-contact"></i>
-                    <h4>ESCRÍBENOS</h4>
+                    <h4>Escríbenos</h4>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.facebook }}
                         <li class="list-inline-item">
                             <a href="{{.}}">
                                 <i class="tf-ion-social-facebook"></i>
-                            </a>
-                        </li>
-                        {{ end }}
-                        {{ with .Site.Params.contact.twitter }}
-                        <li class="list-inline-item">
-                            <a href="{{.}}">
-                                <i class="tf-ion-social-twitter"></i>
                             </a>
                         </li>
                         {{ end }}

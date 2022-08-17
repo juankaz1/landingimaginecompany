@@ -1,18 +1,18 @@
 body {
   line-height: 1.4;
-  /*font-family: Maximum Impact, BlinkMacSystemFont, sans-serif; */
-  font-family: 'Maximum Impact', sans-serif;
+  /*font-family: Maximum Impact, BlinkMacSystemFont; */
+  font-family: 'Maximum Impact';
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Maximum Impact", sans-serif;
+  font-family: "Maximum Impact";
   color: #9a9a9a;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Maximum Impact", sans-serif;
+  font-family: "Maximum Impact";
   font-weight: 600;
 }
 
@@ -135,14 +135,18 @@ a:focus, a:hover {
   width:23vw; height:23vw;
   border-radius: 20px;
   object-fit: cover;
-  margin: 10px 20px;
+  margin: 5vw;
 }
 
+.slick-track{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
 
 .logos_home {
   display: flex;
-  align-items: baseline;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 
@@ -437,7 +441,7 @@ a:focus, a:hover {
 .header-bradcrumb a, .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Maximum Impact", sans-serif;
+  font-family: "Maximum Impact";
 }
 
 .header-bradcrumb a:hover {
@@ -1075,7 +1079,7 @@ padding: 2px;
   height: 45px !important;
   color: #0c0c0c;
   height: 38px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 14px;
   border-radius: 3px;
 }
@@ -1813,6 +1817,10 @@ padding: 2px;
   margin: 15px 0;
 }
 
+.cta_stock{ 
+  color: #c6b36c !important;
+}
+
 /*=================================================================
   Single Blog Page
 ==================================================================*/
@@ -2023,7 +2031,7 @@ padding: 2px;
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: color .3s;
-  font-family: "Maximum Impact", sans-serif;
+  font-family: "Maximum Impact";
   display: block;
 }
 

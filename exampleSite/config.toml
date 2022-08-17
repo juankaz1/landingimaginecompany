@@ -92,7 +92,7 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reic
 # Contact Section
 [Languages.en.params.contact]
 enable = true
-title = "ESCRÍBENOS"
+title = "Escríbenos"
 subtitle = "Estamos aquí para responder tus preguntas y ayudarte a ser lo que imaginas."
 #address = "14/05, Stockhome <br> Victori Palace , United States"
 phone = "(+57) 315 2403510"
