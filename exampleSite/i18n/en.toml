@@ -12,6 +12,10 @@ other = "Tecnologia"
 [medical]
 other = "Comunicación Médica"
 
+[low]
+other = "Low Cost"
+
+
 [portfolio]
 other = "Portafolio"
 [contact]

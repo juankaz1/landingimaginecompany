@@ -92,9 +92,8 @@ subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reic
 # Contact Section
 [Languages.en.params.contact]
 enable = true
-topTitle = "DROP US A NOTE"
-title = "Contact Us."
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+title = "ESCRÍBENOS"
+subtitle = "Estamos aquí para responder tus preguntas y ayudarte a ser lo que imaginas."
 #address = "14/05, Stockhome <br> Victori Palace , United States"
 phone = "(03) 9283 2617"
 videoThumb = "images/home/foto inferior.jpg"
@@ -120,7 +119,7 @@ bg2 = "images/portfolio/p13.jpg"
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
 # Site Menus
-[menu]
+#[menu]
 
 # Navbar Menus
 [[menu.nav]]
@@ -148,16 +147,20 @@ name = "medical"
 url = "medical/"
 weight = 5
 
+[[menu.nav]]
+name = "low"
+url = "low/"
+weight = 6
 
 [[menu.nav]]
 name = "portfolio"
 url = "portfolio/"
-weight = 6
+weight = 7
 
 [[menu.nav]]
 name = "contact"
 url = "contact/"
-weight = 7
+weight = 8
 
 
 

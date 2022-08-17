@@ -1,18 +1,18 @@
 body {
   line-height: 1.4;
-  /*font-family: -apple-system,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; */
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  /*font-family: Maximum Impact, BlinkMacSystemFont, sans-serif; */
+  font-family: 'Maximum Impact', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "-apple-system", sans-serif;
+  font-family: "Maximum Impact", sans-serif;
   color: #9a9a9a;
   font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "-apple-system", sans-serif;
+  font-family: "Maximum Impact", sans-serif;
   font-weight: 600;
 }
 
@@ -389,7 +389,7 @@ a:focus, a:hover {
 .title p {
   color: #848484;
   width: 50%;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 @media (max-width: 480px) {
@@ -437,7 +437,7 @@ a:focus, a:hover {
 .header-bradcrumb a, .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "-apple-system", sans-serif;
+  font-family: "Maximum Impact", sans-serif;
 }
 
 .header-bradcrumb a:hover {
@@ -552,6 +552,11 @@ a:focus, a:hover {
   transition: .2s ease-in-out 0s;
   text-transform: capitalize;
 }
+
+.header.container .row {
+margin: 0px !important  ;
+}
+
 
 @media (max-width: 480px) {
   .navigation .navbar-nav > li > .nav-link {
@@ -904,6 +909,8 @@ padding: 2px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34);
 
 }
+
+
 /*=================================================================
   About us section
 ==================================================================*/
@@ -953,6 +960,11 @@ padding: 2px;
   text-align: center;
 }
 
+.cont_med {
+  padding: 10px;
+  background: linear-gradient(90deg, rgba(1,203,242,0) 31%, rgba(9,121,116,0.39539565826330536) 50%, rgba(0,212,255,0) 75%);
+
+}
 /*=================================================================
   About us 2 section
 ==================================================================*/
@@ -1148,9 +1160,10 @@ padding: 2px;
 
 .contact-meta-block {
   margin-top: 3px;
-  padding: 4px 0;
+  padding: 55px 0;
   min-height: 250px;
   text-align: center;
+  align-items: center;
   background: #fff;
   border-radius: 3px;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
@@ -2010,7 +2023,7 @@ padding: 2px;
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: color .3s;
-  font-family: "-apple-system", sans-serif;
+  font-family: "Maximum Impact", sans-serif;
   display: block;
 }
 
