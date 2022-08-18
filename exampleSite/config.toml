@@ -73,7 +73,7 @@ enable_footer = false
 # Hero Area Section st
 [Languages.en.params.hero_st]
 enable = true
-heading = "Conoce nuestro magazine"
+heading = "Conoce nuestro medio de comunicación"
 description = "Somos una propuesta audiovisual innovadora donde exponemos distintas escenas culturales a nivel capital como nacional; difundiendo las nuevas propuestas musicales, temas de interés, eventos y tendencias en un espacio único para el entretenimiento del público Colombiano."
 button = false
 btnText = "Contactanos"
@@ -168,10 +168,10 @@ name = "low"
 url = "low/"
 weight = 6
 
-[[menu.nav]]
-name = "portfolio"
-url = "portfolio/"
-weight = 7
+#[[menu.nav]]
+#name = "portfolio"
+#url = "portfolio/"
+#weight = 7
 
 [[menu.nav]]
 name = "contact"

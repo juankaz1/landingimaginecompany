@@ -1,6 +1,7 @@
 enable    : true
 title     : Nos enorgullece nuestro trabajo
 link      : Mira nuestro portafolio completo.
+document  : https://www.youtube.com/c/StockHausenMagazine
 clientLogo:
   - image   : images/stockH/carrucel_fotos/14.jpg
   - image   : images/stockH/carrucel_fotos/15.jpg

@@ -1,6 +1,6 @@
 ---
-title: "StockHausen"
+title: "StockHausen Magazine"
 date: 
 draft: false
-description: "StockHausen "
+description: "StockHausen Magazine "
 ---

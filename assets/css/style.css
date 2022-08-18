@@ -16,6 +16,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+.page_title{
+  margin: 1rem;
+}
 /*=== MEDIA QUERY ===*/
 .no-padding {
   padding: 0 !important;
@@ -131,17 +134,22 @@ a:focus, a:hover {
   vertical-align: center;
 }
 
+
 .photo_publicidad img{
   width:23vw; height:23vw;
   border-radius: 20px;
   object-fit: cover;
   margin: 5vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .slick-track{
   display: flex;
   align-items: center;
-  vertical-align: middle;
+  vertical-align: top;
+  margin: 0px 0px;
+  padding: 3px;
 }
 
 .logos_home {
@@ -491,7 +499,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background: #343137;
+  background: #29272c;
   padding: 0px 0;
   text-align: center;
   color: #fff;
@@ -651,6 +659,7 @@ margin: 0px !important  ;
 }
 
 .hero-area-st{
+  background-color: rgba(240, 255, 255, 0.337) !important;
   padding: 35px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.34) !important;
 }
@@ -741,7 +750,7 @@ margin: 0px !important  ;
 }
 
 .hero-area .block h2 {
-  font-size: 48px;
+  font-size: 50px;
   margin-bottom: 2px;
 }
 
@@ -940,7 +949,7 @@ padding: 2px;
 }
 
 .about h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   margin-top: 0;
 }
@@ -1577,7 +1586,7 @@ padding: 2px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 25px;
+  margin: 2px;
   padding: 0;
 }
 

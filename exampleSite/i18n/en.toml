@@ -1,5 +1,5 @@
 [stockhousen]
-other = "StockHausen"
+other = "StockHausen Magazine"
 [publicidadymercadeo]
 other = "Publicidad"
 [audiovisualycomercial]
@@ -15,8 +15,8 @@ other = "Comunicación Médica"
 [low]
 other = "Low Cost"
 
+#[portfolio]
+#other = "Portafolio"
 
-[portfolio]
-other = "Portafolio"
 [contact]
 other = "Contacto"

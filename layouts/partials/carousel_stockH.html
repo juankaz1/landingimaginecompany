@@ -6,9 +6,8 @@
     <div class="container">
     <div class="text_carousel">
                 {{ with .title }}<h2>{{.}}</h2>{{ end }}
-                {{ with .description }}<p>{{.}}</p>{{ end }}
     </div>
-    <div class="row">
+    <div class="row carousel_row">
             <div class="col-md-12">
                 <div id="clients-slider" class="company-gallery">
                     {{ range .clientLogo }}
@@ -19,7 +18,7 @@
                 </div>
             </div>
             <div class="col-md-12  text-center">
-                {{ with .link }}<a href="{{ `portfolio` | absLangURL }}" class="btn btn-main">{{ . }}</a>{{ end }}
+                <a href="{{ .document | absURL }}" class="btn btn-main" target="blank" >Visita nuestro magazine</a>
             </div>
         </div>
     </div>
@@ -27,3 +26,4 @@
 {{ "<!-- Client Section End -->" | safeHTML }}
 {{ end }}
 {{ end }}
+
