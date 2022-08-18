@@ -1028,6 +1028,14 @@ padding: 2px;
 /*=================================================================
  Call To Action 1
 ==================================================================*/
+.call-to-action-btn{
+  padding: 25px 0;
+  background-size: cover;
+  color: #fff;
+  vertical-align: bottom;
+}
+
+
 .call-to-action {
   padding: 100px 0;
   background-size: cover;
@@ -2002,6 +2010,29 @@ padding: 2px;
 .comment-reply-form textarea, .comment-reply-form .btn-main, .comment-reply-form .btn-main-sm {
   height: auto;
 }
+
+.boton_pdf{
+  background-image: url("{{ .Site.Params.cta_btn.bg | absURL }}");
+}
+
+.btn_link_pdf{
+  background-image:linear-gradient(100deg, #c5b26c, #a99b62);
+  box-shadow: -3px 11px 46px 26px rgba(250,194,53,0.6);
+
+}
+
+.row_bot_low{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boton .btn-main{
+  padding: 15px;
+  background-color: rgba(128, 128, 128, 0.159);
+}
+
 
 .pagination{
   justify-content: center;

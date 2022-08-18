@@ -132,6 +132,21 @@ subtitle = "Presentamos a nuestros clientes una opción de financiamiento para l
 btnText = "Contactanos"
 bg2 = "images/portfolio/p13.jpg"
 
+
+# Call to Action Section on About Page
+[Languages.en.params.cta_btn]
+enable = true
+bg = "images/fondo_btn.jpg"
+
+
+
+
+
+
+
+
+
+
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
 # Site Menus

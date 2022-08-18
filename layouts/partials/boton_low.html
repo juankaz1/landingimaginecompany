@@ -1,0 +1,20 @@
+{{ if .Site.Params.cta_btn.enable }}
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+<section class=" section call-to-action-btn boton_pdf" style='background-image: url("{{ .Site.Params.cta_btn.bg | absURL }}");
+                                                            display: flex;
+                                                            object-fit: cover;
+                                                            background-position: 65%;'>
+    <div class="container">
+		<div class="row row_bot_low">
+			<div class="row-md-12 text-center">
+				<a href="https://drive.google.com/file/d/1e6sB6932fyw7a63J7T2QLTMIaFbOkIld/view?usp=sharing" class="btn btn-main btn_link_pdf" target="_blank"> Comercial LowCost </a>
+			</div>
+			<div class="row-md-12 text-center">
+				<a href="https://drive.google.com/file/d/1IGGKmUdN92XUkBPET_rUjmipa5Yw_hvw/view?usp=sharing" class="btn btn-main btn_link_pdf" target="_blank"> VideoClip  LowCost</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+{{ end }}

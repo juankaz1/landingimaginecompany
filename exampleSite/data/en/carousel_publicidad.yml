@@ -1,6 +1,6 @@
 enable    : true
 title     : Nos enorgullece nuestro trabajo
-link      : Mira nuestro portafolio completo.
+link      : Mira nuestro portafolio completo
 clientLogo:
   - image   : images/Publicidad/carrucel_fotos/18.jpg
   - image   : images/Publicidad/carrucel_fotos/2.jpg

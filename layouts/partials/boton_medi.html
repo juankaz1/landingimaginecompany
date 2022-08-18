@@ -1,0 +1,16 @@
+{{ if .Site.Params.cta_btn.enable }}
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+<section class=" section call-to-action-btn boton_pdf" style='background-image: url("{{ .Site.Params.cta_btn.bg | absURL }}");
+                                                            display: flex;
+                                                            object-fit: cover;
+                                                            background-position: 65%;'>
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<a href="https://drive.google.com/file/d/156e_0bboqaH09Aro4Rco1xhpBRcYPN1I/view?usp=sharing" class="btn btn-main btn_link_pdf" target="_blank"> Mira nuestro portafolio </a>
+			</div>
+		</div>
+	</div>
+</section>
+{{ "<!-- Start Call To Action -->" | safeHTML }}
+{{ end }}
