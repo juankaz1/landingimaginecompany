@@ -64,11 +64,10 @@ description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo 
 button = false
 btnText = "Contactanos"
 btnURL = "contact/"
-videoThumb = "https://i.ytimg.com/vi/oxKohfzkV6U/hqdefault.jpg" 
-videoURL = "https://www.youtube.com/embed/oxKohfzkV6U"
+videoThumb = "https://i.ytimg.com/vi/ytv7IanEKrg/hqdefault.jpg" 
+videoURL = "https://www.youtube.com/embed/ytv7IanEKrg"
 logo1 ="images/home/logo_tecnologia.png"
 enable_footer = false
-
 
 # Hero Area Section st
 [Languages.en.params.hero_st]

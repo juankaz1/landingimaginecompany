@@ -1,0 +1,13 @@
+enable    : true
+title     : Nos enorgullece nuestro trabajo
+clientLogo:
+  - image   : images/low/carrucel/2.jpg
+  - image   : images/low/carrucel/12.jpg
+  - image   : images/low/carrucel/33.jpg
+  - image   : images/low/carrucel/ALF 2.jpg
+  - image   : images/low/carrucel/fa 4.jpg
+  - image   : images/low/carrucel/IMG0031.jpg
+  - image   : images/low/carrucel/IMG0061.jpg
+  - image   : images/low/carrucel/IMG0060.jpg
+  - image   : images/low/carrucel/IMG0064.jpg
+

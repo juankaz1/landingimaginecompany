@@ -136,8 +136,8 @@ a:focus, a:hover {
 
 
 .photo_publicidad img{
-  width:23vw; height:23vw;
-  border-radius: 20px;
+  width:18vw; height:18vw;
+  border-radius: 15px;
   object-fit: cover;
   margin: 5vw;
   margin-top: 0px;
@@ -499,7 +499,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background: #29272c;
+  background: #343137;
   padding: 0px 0;
   text-align: center;
   color: #fff;
@@ -954,10 +954,20 @@ padding: 2px;
   margin-top: 0;
 }
 
+.about_2 h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
 @media (max-width: 992px) {
   .about h2 {
     font-size: 25px;
   }
+  .about_2 h2 {
+    font-size: 25px;
+  }
+
 }
 
 .about h4 {
