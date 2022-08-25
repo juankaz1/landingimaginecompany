@@ -7,8 +7,9 @@ body {
 
 p {
   font-family: "Maximum Impact";
-  color: #9a9a9a;
-  font-size: 16px;
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1002,7 +1003,7 @@ padding: 2px;
 
 .cont_med {
   padding: 10px;
-  background: linear-gradient(90deg, rgba(1,203,242,0) 31%, rgba(9,121,116,0.39539565826330536) 50%, rgba(0,212,255,0) 75%);
+  background: linear-gradient(90deg, rgba(1,203,242,0) 31%, rgba(12, 106, 102, 0.303) 50%, rgba(0,212,255,0) 75%);
 
 }
 /*=================================================================
@@ -1561,7 +1562,7 @@ padding: 2px;
 .product{
   padding: 5px;
   margin:  10px; 
-  background: linear-gradient(90deg, rgba(1,203,242,0) 31%, rgba(9,121,116,0.39539565826330536) 50%, rgba(0,212,255,0) 75%);
+  background: linear-gradient(90deg, rgba(1,203,242,0) 31%, rgba(8, 92, 88, 0.328) 50%, rgba(0,212,255,0) 75%);
   }
  .product .content .p {
   width: 12px;
@@ -1711,7 +1712,7 @@ padding: 2px;
 }
 
 .team-member .member-content p {
-  color: #777;
+  color: rgb(33, 33, 33);
   margin-top: 10px;
   padding: 0 15px;
 }
@@ -1750,6 +1751,7 @@ padding: 2px;
 
 .team-member .member-photo img {
   transition: all 0.6s ease 0s;
+  border-radius: 30px;
 }
 
 .team-member-medi {
@@ -1764,6 +1766,13 @@ padding: 2px;
   align-items: start;
 }
 
+img {
+	vertical-align: bottom;
+}
+.imagen_centrar img {
+
+  margin-top:15% ;
+}
 
 /*=================================================================
   Testimonial section
@@ -2027,7 +2036,7 @@ padding: 2px;
 
 .btn_link_pdf{
   background-image:linear-gradient(100deg, #c5b26c, #a99b62);
-  box-shadow: -3px 11px 46px 26px rgba(250,194,53,0.6);
+  box-shadow: -3px 11px 46px 26px rgba(200, 148, 15, 0.426);
 
 }
 
