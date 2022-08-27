@@ -1,20 +1,20 @@
 body {
   line-height: 1.4;
-  /*font-family: Maximum Impact, BlinkMacSystemFont; */
-  font-family: 'Maximum Impact';
+  /*font-family:  "Maximum Impact", "Arial Black", Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "sans serif"; */
+  font-family:  Impact, "Arial Black";
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Maximum Impact";
-  color: #000;
-  font-size: 18px;
+  font-family:  Impact, "Arial Black";
+  color: #6f6969;
+  font-size: 16px;
   text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Maximum Impact";
-  font-weight: 600;
+  font-family:  Impact, "Arial Black";
+  font-weight: 500;
 }
 
 .page_title{
@@ -450,7 +450,7 @@ a:focus, a:hover {
 .header-bradcrumb a, .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Maximum Impact";
+  font-family:  Impact, "Arial Black";
 }
 
 .header-bradcrumb a:hover {
@@ -1124,7 +1124,7 @@ padding: 2px;
   height: 45px !important;
   color: #0c0c0c;
   height: 38px;
-  font-family: 'Open Sans';
+  font-family:  Impact, "Arial Black";
   font-size: 14px;
   border-radius: 3px;
 }
@@ -1216,6 +1216,9 @@ padding: 2px;
   background: #fff;
   border-radius: 3px;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact-meta-block > i {
@@ -1712,7 +1715,7 @@ padding: 2px;
 }
 
 .team-member .member-content p {
-  color: rgb(33, 33, 33);
+  color: #6f6969;
   margin-top: 10px;
   padding: 0 15px;
 }
@@ -2107,8 +2110,7 @@ img {
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: color .3s;
-  font-family: "Maximum Impact";
-  display: block;
+  font-family:  Impact, "Arial Black";
 }
 
 .top-footer li a:hover {
