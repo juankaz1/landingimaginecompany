@@ -15,6 +15,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family:  Impact, "Arial Black";
   font-weight: 500;
+  padding: 3px;
 }
 
 .page_title{
@@ -122,7 +123,7 @@ a:focus, a:hover {
 .section_clients {
   padding: 1px 0;
   background-color: #e9e8e6;
-  margin: 0px 0;
+  margin: 2px 0;
 }
 
 
@@ -141,15 +142,15 @@ a:focus, a:hover {
   border-radius: 15px;
   object-fit: cover;
   margin: 5vw;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .slick-track{
   display: flex;
   align-items: center;
   vertical-align: top;
-  margin: 0px 0px;
+  margin: 2px 2px;
   padding: 3px;
 }
 
@@ -237,7 +238,7 @@ a:focus, a:hover {
 .preloader .sk-child:before {
   content: '';
   display: block;
-  margin: 0 auto;
+  margin: 1px auto;
   width: 15%;
   height: 15%;
   background-color: #fff;
@@ -467,7 +468,7 @@ a:focus, a:hover {
 }
 
 .commonTab .nav-tabs .nav-item {
-  margin: 0 3px;
+  margin: 1 3px;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link {
@@ -548,7 +549,7 @@ a:focus, a:hover {
   width: 100%;
   color: #fff;
   transition: all 0.2s ease-out 0s;
-  padding: 10px 0;
+  padding: 0px 0;
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
@@ -1767,6 +1768,7 @@ padding: 2px;
 .imagine_products{
   display: flex;
   align-items: start;
+  justify-content: space-around;
 }
 
 img {

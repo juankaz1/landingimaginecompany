@@ -129,14 +129,13 @@ bg = "images/home/Foto superior.jpg"
 title = "IMAGINE CREDIT"
 subtitle = "Presentamos a nuestros clientes una opción de financiamiento para la adquisición inmediata de cualquiera de los productos y servicios de nuestra compañía, a partir de pago en cuotas o pagos extendidos con una tasa preferencial que varía según el perfil del cliente en medida de persona jurídica o natural en un marco del 1.5% hasta el 2.78, mediante nuestro sistema de crédito en alianza estratégica con el Banco Caja Social."
 btnText = "Contactanos"
-bg2 = "images/portfolio/p13.jpg"
 
 
 # Call to Action Section on About Page
 [Languages.en.params.cta_btn]
 enable = true
 bg = "images/fondo_btn.jpg"
-
+bg2 = "images/medica/fondo_medico.jpg"
 
 
 

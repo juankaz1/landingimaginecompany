@@ -10,6 +10,18 @@ member  :
     description   : >
       Nosotros seguimos evolucionando a la par de la publicidad, y es por ello por lo que brindamos opciones tanto comerciales para la televisión como para internet. Sabemos que actualmente las personas están cada vez más conectadas a la red, pero la televisión sigue manteniendo su liderazgo como medio de promoción para campañas publicitarias, así que pregúntanos cual es tu mejor opción. 
 
+  - image         : images/Productos/p11.jpg
+    name          : Preproducción
+    designation   : 
+    description   : >
+      Desarrollamos la captación de material audiovisual y sonoro. A su vez, somos los encargados de ayudarte con la creación de guiones y con la dirección de video y fotografía. Hacemos edición, colorización y finalización de los proyectos visuales (motion graphics). Coméntanos que requieres y con gusto te ayudamos. 
+
+  - image         : images/Productos/p8.jpg
+    name          : Audio
+    designation   : 
+    description   : >
+      Creamos comerciales para radio, lipsings, jingles y te ayudamos para la generación de fonotipos (identidad sonora de marca). Somos expertos en el área de preproducción, producción, postproducción y masterización de audio, nos especializamos en la captura de audio directo, por lo que cualquier duda que tengas en estas áreas. Contáctanos, estamos para asesorarte.  
+
   - image         : images/Productos/p12.jpg
     name          : Corporativo
     designation   :
@@ -33,15 +45,3 @@ member  :
     designation   : 
     description   : >
       Somos los encargados de generar registro de tus conferencias, eventos deportivos, conciertos, obras de teatro o videos 360°.
-
-  - image         : images/Productos/p11.jpg
-    name          : Preproducción
-    designation   : 
-    description   : >
-      Desarrollamos la captación de material audiovisual y sonoro. A su vez, somos los encargados de ayudarte con la creación de guiones y con la dirección de video y fotografía. Hacemos edición, colorización y finalización de los proyectos visuales (motion graphics). Coméntanos que requieres y con gusto te ayudamos. 
-
-  - image         : images/Productos/p8.jpg
-    name          : Audio
-    designation   : 
-    description   : >
-      Creamos comerciales para radio, lipsings, jingles y te ayudamos para la generación de fonotipos (identidad sonora de marca). Somos expertos en el área de preproducción, producción, postproducción y masterización de audio, nos especializamos en la captura de audio directo, por lo que cualquier duda que tengas en estas áreas. Contáctanos, estamos para asesorarte.  
