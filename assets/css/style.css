@@ -2163,3 +2163,11 @@ img {
 .page-404 h1 {
   font-size: 200px;
 }
+
+.centrar_items {
+  display: flexbox;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  padding: 5%;
+}

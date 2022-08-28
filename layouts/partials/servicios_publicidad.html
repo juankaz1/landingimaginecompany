@@ -66,7 +66,19 @@
                 </div>
                 {{ "<!-- end team member -->" | safeHTML }}
             {{ end }}
-
+            <div class="row mt-50 justify-content-center product_pub">
+                <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                    <div class="content">
+                        <h4>{{ .ext_prod_name }}</h4>
+                        <p>
+                            {{ .ext_prod_descrip }}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-sm-12 text-center">
+                    <img src="{{ .ext_prod_img | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -2,6 +2,11 @@ enable  : true
 topTitle: 
 title   : Descubre nuestros servicios
 subtitle: 
+ext_prod_img: images/Publicidad/brand.jpeg
+ext_prod_name: Manejo de imagen de marca
+ext_prod_descrip: >
+      La imagen de marca es la primera impresión que los consumidores tienen de nuestra compañía y de ella sacarán una idea sobre la misma, por ello podemos decir que es la percepción de la identidad de la marca en la mente de los consumidores.Por ello generamos acciones de marketing, comunicación y publicidad con la finalidad de mejorar y aumentar la cantidad de personas que se acercan a tu marca.
+
 
 member  :
   - image         : images/Publicidad/dis_mark_dig.jpg
@@ -26,9 +31,3 @@ member  :
     designation   : 
     description   : >
       Nosotros desarrollamos aplicativos BTL con la finalidad de generar técnicas publicitarias enfocadas a segmentos o nichos de mercado muy concretos. La idea es que elijas si quieres desarrollar marketing directo, marketing promocional, marketing relacional o patrocinios con la finalidad de generar el mejor aplicativo para tu marca.
-
-  - image         : images/Publicidad/brand.jpeg
-    name          : Manejo de imagen de marca 
-    designation   : 
-    description   : >
-      La imagen de marca es la primera impresión que los consumidores tienen de nuestra compañía y de ella sacarán una idea sobre la misma, por ello podemos decir que es la percepción de la identidad de la marca en la mente de los consumidores.Por ello generamos acciones de marketing, comunicación y publicidad con la finalidad de mejorar y aumentar la cantidad de personas que se acercan a tu marca. 
