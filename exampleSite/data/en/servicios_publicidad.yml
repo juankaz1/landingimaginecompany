@@ -9,7 +9,7 @@ ext_prod_descrip: >
 
 
 member  :
-  - image         : images/Publicidad/dis_mark_dig.jpg
+  - image         : images/Publicidad/dis_mark_dig.jpeg
     name          : Diseño de estrategias de marketing digital
     designation   : 
     description   : >
@@ -20,7 +20,7 @@ member  :
     designation   :
     description   : >
       Desarrollamos y aplicamos campañas publicitarias buscando generar un método de comunicación efectivo para dar a conocer tu producto o servicio a un público objetivo. Tenemos como objetivo lograr la promoción de tu producto o servicio de una manera persuasiva, llegando a los intereses que tiene el mercado objetivo, ese público específico al que se quiere llegar y convertir en clientes. 
-  - image         : images/Publicidad/Comunicacion.jpeg
+  - image         : images/Publicidad/Comunicacion.jpg
     name          : Planes de comunicación
     designation   : 
     description   : >
