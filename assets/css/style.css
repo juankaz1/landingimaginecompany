@@ -1776,7 +1776,11 @@ img {
 }
 .imagen_centrar img {
 
-  margin-top:15% ;
+  margin-top:30% ;
+}
+
+.tamanio_ip {
+  max-width: 85% !important;
 }
 
 /*=================================================================
