@@ -957,20 +957,30 @@ padding: 2px;
 }
 
 .about_2 h2 {
-  font-size: 50px;
+  font-size: 30px!important;
   font-weight: bold;
   margin-top: 0;
 }
 
+
+.about_3 h3 {
+  font-size: 33px !important;
+  font-weight: 800;
+  margin-top: 8px;
+}
+
 @media (max-width: 992px) {
   .about h2 {
-    font-size: 25px;
+    font-size: 30px!important;
   }
   .about_2 h2 {
-    font-size: 25px;
+    font-size: 30px!important;
+  }
+  .about_3size: 30px!important;
   }
 
 }
+
 
 .about h4 {
   font-size: 14px;
