@@ -9,13 +9,13 @@ ext_prod_descrip: >
 
 
 member  :
-  - image         : images/Publicidad/dis_mark_dig.jpeg
+  - image         : images/Publicidad/dis_mark_dig.jpg
     name          : Diseño de estrategias de marketing digital
     designation   : 
     description   : >
       Desarrollamos estrategias de marketing digital buscando promocionar al máximo su marca en internet. Nuestra idea es hacer uso de canales que permitan el análisis de los resultados en tiempo real, para ello ofrecemos: mercadeo de contenidos, Inbound marketing y mercadeo conversacional. Pretendemos no solo vender un producto, sino crear una experiencia única y valiosa que sea digna de compartir con otras personas. 
 
-  - image         : images/Publicidad/app_pub.jpeg
+  - image         : images/Publicidad/app_pub.jpg
     name          : Desarrollo y aplicación de campañas publicitarias
     designation   :
     description   : >
@@ -26,7 +26,7 @@ member  :
     description   : >
       Generamos planes de comunicación plasmando claramente la forma en que tu empresa se debe comunicar y en qué momento debe realizar esta comunicación. Es crucial el plan de comunicación para unificar el mensaje de tu marca. Tanto los empleados como el público objetivo conocerán tu personalidad, los valores y los objetivos de tu empresa. 
 
-  - image         : images/Publicidad/BTL.jpeg
+  - image         : images/Publicidad/BTL.jpg
     name          : Aplicativos BTL
     designation   : 
     description   : >
