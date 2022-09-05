@@ -12,6 +12,11 @@ p {
   text-align: justify;
 }
 
+.color_bl {
+  color: #6f6969; 
+  text-decoration: none !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family:  Impact, "Arial Black";
   font-weight: 500;

@@ -57,11 +57,13 @@
         <div class="row">
             <div class="col-12 col-md-4">
                 <div class="phone-block contact-meta-block">
-                    <i class="tf-ion-social-youtube"></i>
+                    <i class="tf-ion-social-linkedin"></i>
                     <h4>Contactanos</h4>
                     <p>
-                        {{ with .Site.Params.contact.youtube }}{{ end }} 
-                        <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
+                        {{ with .Site.Params.contact.linkedin }}
+                        <a class="color_bl" href="{{.}}" target="_blank"> @Imagine_Company_SAS </a>
+                        {{ end }} 
+                        
                     </p>
                 </div>
             </div>
@@ -83,32 +85,40 @@
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.facebook }}
                         <li class="list-inline-item">
-                            <a href="{{.}}">
+                            <a href="{{.}}" target="_blank">
                                 <i class="tf-ion-social-facebook"></i>
                             </a>
                         </li>
                         {{ end }}
                         {{ with .Site.Params.contact.linkedin }}
                         <li class="list-inline-item">
-                            <a href="{{.}}">
+                            <a href="{{.}}" target="_blank">
                                 <i class="tf-ion-social-linkedin"></i>
                             </a>
                         </li>
                         {{ end }}
                         {{ with .Site.Params.contact.dribbble }}
                         <li class="list-inline-item">
-                            <a href="{{.}}">
+                            <a href="{{.}}" target="_blank">
                                 <i class="fa-brands fa-tiktok"></i>
                             </a>
                         </li>
                         {{ end }}
                         {{ with .Site.Params.contact.instagram }}
                         <li class="list-inline-item">
-                            <a href="{{.}}">
+                            <a href="{{.}}" target="_blank">
                                 <i class="tf-ion-social-instagram"></i>
                             </a>
                         </li>
                         {{ end }}
+                        {{ with .Site.Params.contact.youtube }}
+                        <li class="list-inline-item">
+                            <a href="{{.}}" target="_blank">
+                                <i class="tf-ion-social-youtube"></i>
+                            </a>
+                        </li>
+                        {{ end }}
+
                     </ul>
                 </div>
             </div>
