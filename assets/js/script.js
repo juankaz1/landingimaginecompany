@@ -71,7 +71,7 @@
 			arrows: false,
 			autoplay: true,
 			autoplaySpeed: 1000,
-			slidesToShow: 4,
+			slidesToShow: 5,
 			slidesToScroll: 1,
 		});
 
