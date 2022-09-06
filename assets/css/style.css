@@ -1,12 +1,12 @@
 body {
   line-height: 1.4;
   /*font-family:  "Maximum Impact", "Arial Black", Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "sans serif"; */
-  font-family:  Impact, "Arial Black";
+  font-family:  Impact, "Arial Black", Optima;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Lucida Grande",  monospace;
+  font-family: "Lucida Grande", "trebuchet ms", sans-serif  ;
   color: #6f6969;
   font-size: 16px;
   text-align: justify;
