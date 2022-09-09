@@ -2,6 +2,7 @@
 <script src="https://kit.fontawesome.com/45b405c3d8.js" crossorigin="anonymous"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 {{ with .Site.Params.author }} <meta name="author" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
 
