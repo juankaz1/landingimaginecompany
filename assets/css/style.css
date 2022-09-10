@@ -1,12 +1,12 @@
 body {
   line-height: 1.4;
   /*font-family:  "Maximum Impact", "Arial Black", Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "sans serif"; */
-  font-family:  Impact, "Arial Black", Optima, Anton;
+  font-family:  Impact, "Arial Black", Optima,  Anton;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: "Lucida Grande", "trebuchet ms", sans-serif  ;
+  font-family: "Lucida Grande",Varela, "trebuchet ms", sans-serif  ;
   color: #6f6969;
   font-size: 16px;
   text-align: justify;
@@ -18,7 +18,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:  Impact, "Arial Black";
+  font-family:  Impact, "Arial Black", Anton;
   font-weight: 500;
   padding: 3px;
 }
@@ -456,7 +456,7 @@ a:focus, a:hover {
 .header-bradcrumb a, .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family:  Impact, "Arial Black";
+  font-family:  Impact,"Arial Black", Anton;
 }
 
 .header-bradcrumb a:hover {
@@ -1154,7 +1154,7 @@ padding: 2px;
   height: 45px !important;
   color: #0c0c0c;
   height: 38px;
-  font-family:  Impact, "Arial Black";
+  font-family:  Impact, Anton, "Arial Black";
   font-size: 14px;
   border-radius: 3px;
 }
@@ -2151,7 +2151,7 @@ img {
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: color .3s;
-  font-family:  Impact, "Arial Black";
+  font-family:  Impact,  "Arial Black";
 }
 
 .top-footer li a:hover {
