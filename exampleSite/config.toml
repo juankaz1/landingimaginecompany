@@ -159,8 +159,8 @@ url = "stockhousen/"
 weight = 1
 
 [[menu.nav]]
-name = "publicidadymercadeo"
-url = "publicidadymercadeo/"
+name = "publicidad_mercadeo"
+url = "publicidad_mercadeo/"
 weight = 2
 
 [[menu.nav]]

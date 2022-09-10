@@ -182,7 +182,7 @@ a:focus, a:hover {
 
 @media (max-width: 480px) {
   .section {
-    padding: 40px 0;
+    padding: 1px 0;
   }
 }
 
@@ -741,8 +741,14 @@ margin: 0px !important  ;
 
 @media (max-width: 480px) {
   .hero-area {
-    padding: 80px 0;
+    padding: 0px 0;
   }
+
+  .video-player{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
 }
 
 .hero-area .block {
@@ -813,7 +819,7 @@ padding: 2px;
 .texto_area {
   align-items: center;
   vertical-align: middle;
-  text-align: center;
+  text-align: left;
   margin: 0px;
 }
 
@@ -1805,7 +1811,7 @@ img {
 }
 .imagen_centrar img {
 
-  margin-top:30% ;
+  margin-top:3% ;
 }
 
 .tamanio_ip {
@@ -2205,4 +2211,37 @@ img {
   vertical-align: middle;
   justify-content: center;
   padding: 5%;
+}
+
+
+
+@media (max-width: 480px) {
+
+  .hero-area {
+    padding: 0px 0;
+  }
+
+  .video-player{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .hero-area .block h2 {
+    font-size: 45px;
+  }
+ 
+  .mt-50 {
+    margin-top: 0;
+  }
+  .margen_d_m{
+    padding: 3% 0 !important;
+  }
+
+  .text-center {
+    padding: 3% 0%;
+  }
+
+  .team-member .member-content {
+    padding: 10px 0;
+}
 }
