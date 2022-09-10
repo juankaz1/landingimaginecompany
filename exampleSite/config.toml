@@ -62,7 +62,7 @@ enable = true
 heading = "Conoce nuestro trabajo."
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
 button = false
-btnText = "Contactanos"
+btnText = "Contáctanos"
 btnURL = "contact/"
 videoThumb = "https://i.ytimg.com/vi/0Nd83zZ_DsI/hqdefault.jpg" 
 videoURL = "https://www.youtube.com/embed/0Nd83zZ_DsI"
@@ -76,7 +76,7 @@ enable = true
 heading = "Conoce nuestro medio de comunicación"
 description = "Somos una propuesta audiovisual innovadora donde exponemos distintas escenas culturales a nivel capital como nacional; difundiendo las nuevas propuestas musicales, temas de interés, eventos y tendencias en un espacio único para el entretenimiento del público Colombiano."
 button = false
-btnText = "Contactanos"
+btnText = "Contáctanos"
 btnURL = "contact/"
 videoThumb = "images/stockH/16.jpg" 
 videoURL = "https://www.youtube.com/embed/YaternZ03fc"
@@ -130,7 +130,7 @@ enable = true
 bg = "images/home/Foto superior.jpg"
 title = "IMAGINE CREDIT"
 subtitle = "Presentamos a nuestros clientes una opción de financiamiento para la adquisición inmediata de cualquiera de los productos y servicios de nuestra compañía, a partir de pago en cuotas o pagos extendidos con una tasa preferencial que varía según el perfil del cliente en medida de persona jurídica o natural en un marco del 1.5% hasta el 2.78, mediante nuestro sistema de crédito en alianza estratégica con el Banco Caja Social."
-btnText = "Contactanos"
+btnText = "Contáctanos"
 
 
 # Call to Action Section on About Page
