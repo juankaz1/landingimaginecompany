@@ -1,7 +1,7 @@
 body {
   line-height: 1.4;
   /*font-family:  "Maximum Impact", "Arial Black", Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "sans serif"; */
-  font-family:  Impact, "Arial Black", Optima;
+  font-family:  Impact, "Arial Black", Optima, Anton;
   -webkit-font-smoothing: antialiased;
 }
 
