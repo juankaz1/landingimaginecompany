@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neon Sessions</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@9.1.7/dist/mermaid.esm.min.mjs';
         mermaid.initialize({ startOnLoad: true });
@@ -19,6 +20,65 @@
         </defs>
     </svg>
     <img src="assets/neon-sessions.png" alt="Logo de Neon Sessions" class="center-image" style="width: 40%; display: block; margin: 0 auto;">
+    <!-- Agregar música de fondo -->
+    <div class="music-player">
+        <audio id="background-music" controls>
+            <source id="audio-source" src="assets/cancion1.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <div class="controls">
+            <button class="neon-button" onclick="toggleMusic()">
+                <i class="fas fa-play" id="play-icon"></i>
+                <i class="fas fa-pause" id="pause-icon" style="display: none;"></i>
+            </button>
+            <button class="neon-button" onclick="nextSong()">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const playlist = [
+            'assets/cancion1.mp3',
+            'assets/cancion2.mp3',
+            'assets/cancion3.mp3'
+        ];
+        let currentSongIndex = 0;
+        const audioElement = document.getElementById('background-music');
+        const audioSource = document.getElementById('audio-source');
+        const playIcon = document.getElementById('play-icon');
+        const pauseIcon = document.getElementById('pause-icon');
+
+        audioElement.addEventListener('ended', () => {
+            nextSong();
+        });
+
+        audioElement.addEventListener('play', () => {
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'inline';
+        });
+
+        audioElement.addEventListener('pause', () => {
+            playIcon.style.display = 'inline';
+            pauseIcon.style.display = 'none';
+        });
+
+        function toggleMusic() {
+            if (audioElement.paused) {
+                audioElement.play();
+            } else {
+                audioElement.pause();
+            }
+        }
+
+        function nextSong() {
+            currentSongIndex = (currentSongIndex + 1) % playlist.length;
+            audioSource.src = playlist[currentSongIndex];
+            audioElement.load();
+            audioElement.play();
+        }
+    </script>
+    
     <h1 class="neon-text" style="font-size: 5em; text-align: center;"> Neon Sessions </h1>
 
     <div class="section">

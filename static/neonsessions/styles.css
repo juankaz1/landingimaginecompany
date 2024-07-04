@@ -123,4 +123,46 @@ h1, h2, h3 {
 .contact-form a {
     text-decoration: none;
 }
+.music-player {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: #fe4a76; /* Puedes ajustar el color según tu diseño */
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.controls button:focus {
+    outline: none;
+}
+.neon-button {
+    background: none;
+    border: none;
+    color: #fe4a76;
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #fe4a76, 0 0 10px #fe4a76, 0 0 15px #fe4a76, 0 0 20px #fe4a76, 0 0 25px #fe4a76, 0 0 30px #fe4a76, 0 0 35px #fe4a76;
+}
+
+.neon-button:focus {
+    outline: none;
+}
+
+.neon-button .fas {
+    color: #fe4a76;
+}
+
 
