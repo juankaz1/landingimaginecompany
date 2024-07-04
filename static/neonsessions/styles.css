@@ -1,0 +1,126 @@
+body {
+    background-color: #461949;
+    color: #fcb4c2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 10%;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+body::before, body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    background-image: url('assets/neon-sessions.png');
+    background-repeat: repeat-y;
+    background-size: contain;
+    opacity: 100; /* Si quieres hacer la imagen más transparente */
+}
+body::before {
+    left: 0;
+}
+
+body::after {
+    right: 0;
+}
+h1, h2, h3 {
+    text-align: center;
+    text-shadow: 0 0 5px #fcb4c2, 0 0 10px #fcb4c2, 0 0 20px #fe4a76, 0 0 30px #fe4a76, 0 0 40px #fe4a76, 0 0 55px #fe4a76, 0 0 75px #fe4a76;
+}
+.section {
+    margin: 40px 0;
+    padding: 0 20px;
+}
+.diagram {
+    text-align: center;
+    margin: 20px 0;
+}
+.diagram svg {
+    width: 100%;
+}
+
+.diagram .node rect {
+    fill: #333;
+    stroke: #fe4a76;
+    stroke-width: 2px;
+}
+
+.diagram .edgePath path {
+    stroke: #fe4a76;
+    stroke-width: 2px;
+    filter: url(#shadow);
+}
+
+/* Define the shadow filter */
+.diagram defs {
+    display: block;
+}
+
+.diagram #shadow {
+    filter: drop-shadow(0 0 5px #fe4a76);
+}
+.hover-info {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.hover-info .info-text {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Ajustar según sea necesario */
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.hover-info:hover .info-text {
+    visibility: visible;
+    opacity: 1;
+}
+.neon-text {
+    color: #fe4a76;
+    text-shadow: 0 0 5px #fe4a76, 0 0 10px #fe4a76, 0 0 20px #fe4a76, 0 0 30px #fe4a76, 0 0 40px #fe4a76, 0 0 55px #fe4a76, 0 0 75px #fe4a76;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+.grid img {
+    width: 100%;
+    max-width: 400px; /* Adjust the size as needed */
+    height: auto;
+}
+.whatsapp-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #25D366;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.whatsapp-button:hover {
+    background-color: #1EBE57;
+}
+.contact-form {
+    margin-top: 40px;
+    text-align: center;
+}
+.contact-form a {
+    text-decoration: none;
+}
+
