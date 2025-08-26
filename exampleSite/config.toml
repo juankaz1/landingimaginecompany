@@ -1,7 +1,7 @@
-baseURL = "https://demo.gethugothemes.com/navigator/examplesite/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Navigator | Responsive Multipurpose Bootstrap Hugo Template"
-theme = "navigator-hugo"
+title = "Imagine Company SAS - Soluciones Audiovisuales y Tecnológicas"
+theme = "repo"
 summaryLength = 10
 
 # Build robots.txt file
