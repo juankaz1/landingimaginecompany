@@ -5,7 +5,7 @@ on:
   # Se ejecuta en pushes a la rama main
   push:
     branches:
-      - main
+      - master
   # Te permite ejecutar manualmente desde la pestaña Actions
   workflow_dispatch:
 
