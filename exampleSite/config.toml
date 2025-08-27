@@ -44,6 +44,36 @@ home = "Home"
 logo = "images/logo3.png"
 menufixed = true
 
+# Hero Area Section
+[Languages.en.params.hero]
+enable = true
+heading = "Conoce nuestro trabajo."
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+button = false
+btnText = "Contáctanos"
+btnURL = "contact/"
+videoThumb = "https://i.ytimg.com/vi/0Nd83zZ_DsI/hqdefault.jpg" 
+videoURL = "https://www.youtube.com/embed/0Nd83zZ_DsI"
+logo1 ="images/home/logo_tecnologia.png"
+enable_footer = false
+
+# Hero Area Section video_init
+[Languages.en.params.video_init]
+enable = true
+videoThumb = "images/ibanner.gif"
+
+# Contact Section
+[Languages.en.params.contact]
+enable = true
+title = "Escríbenos"
+subtitle = "Estamos aquí para responder tus preguntas y ayudarte a ser lo que imaginas."
+phone = "(+57) 315 2403510"
+videoThumb = "images/home/foto inferior.jpg"
+linkedin = "https://www.linkedin.com/"
+dribbble = "https://www.tiktok.com/@imagine.company?_t=8VPujC5qb4A&_r=1"
+youtube = "https://www.youtube.com/channel/UCYuKUhno37U3c-tTEwmymvg"
+instagram = "https://www.instagram.com/imaginecompanysas/"
+
 #footerDescription = ""
 #footerServiceTitle = "Service"
 #footerQuicklinkTitle = "Quicklinks"

@@ -1,15 +1,15 @@
-{{ if .Site.Params.contact.enable }}
+{{ if .Site.Language.Params.contact.enable }}
 {{ "<!-- Start Contact Us -->" | safeHTML }}
 <section class="contact-us section bg-gray" id="contact">
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="title text-center">
-                    {{ with .Site.Params.contact.title }} 
+                    {{ with .Site.Language.Params.contact.title }} 
                     <h2>{{.}}</h2>
                     <span class="border"></span>
                     {{ end }}
-                    {{ with .Site.Params.contact.subtitle }}<p>{{.}}</p>{{ end }}
+                    {{ with .Site.Language.Params.contact.subtitle }}<p>{{.}}</p>{{ end }}
                 </div>
             </div>
         </div>
@@ -17,7 +17,7 @@
             {{ "<!-- Contact Details -->" | safeHTML }}
             <div class="col-12 col-md-6">
                 <div class="image">
-                    <img class="img-fluid rounded" src="{{ with .Site.Params.contact.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
+                    <img class="img-fluid rounded" src="{{ with .Site.Language.Params.contact.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
                 </div>
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
@@ -60,7 +60,7 @@
                     <i class="tf-ion-social-linkedin"></i>
                     <h4>Contáctanos</h4>
                     <p>
-                        {{ with .Site.Params.contact.linkedin }}
+                        {{ with .Site.Language.Params.contact.linkedin }}
                         <a class="color_bl" href="{{.}}" target="_blank"> @Imagine_Company_SAS </a>
                         {{ end }} 
                         
@@ -73,8 +73,8 @@
                     <i class="tf-ion-ios-telephone"></i>
                     <h4>llámanos</h4>
                     <p>
-                         {{ with .Site.Params.contact.phone }} {{.}} {{ end }} 
-                        <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
+                         {{ with .Site.Language.Params.contact.phone }} {{.}} {{ end }} 
+                        <br> {{ with .Site.Language.Params.contact.fax }} Fax: {{ . }} {{ end }}
                     </p>
                 </div>
             </div>
@@ -83,35 +83,35 @@
                     <i class="tf-ion-ios-contact"></i>
                     <h4>Escríbenos</h4>
                     <ul class="list-inline social-icon">
-                        {{ with .Site.Params.contact.facebook }}
+                        {{ with .Site.Language.Params.contact.facebook }}
                         <li class="list-inline-item">
                             <a href="{{.}}" target="_blank">
                                 <i class="tf-ion-social-facebook"></i>
                             </a>
                         </li>
                         {{ end }}
-                        {{ with .Site.Params.contact.linkedin }}
+                        {{ with .Site.Language.Params.contact.linkedin }}
                         <li class="list-inline-item">
                             <a href="{{.}}" target="_blank">
                                 <i class="tf-ion-social-linkedin"></i>
                             </a>
                         </li>
                         {{ end }}
-                        {{ with .Site.Params.contact.dribbble }}
+                        {{ with .Site.Language.Params.contact.dribbble }}
                         <li class="list-inline-item">
                             <a href="{{.}}" target="_blank">
                                 <i class="fa-brands fa-tiktok"></i>
                             </a>
                         </li>
                         {{ end }}
-                        {{ with .Site.Params.contact.instagram }}
+                        {{ with .Site.Language.Params.contact.instagram }}
                         <li class="list-inline-item">
                             <a href="{{.}}" target="_blank">
                                 <i class="tf-ion-social-instagram"></i>
                             </a>
                         </li>
                         {{ end }}
-                        {{ with .Site.Params.contact.youtube }}
+                        {{ with .Site.Language.Params.contact.youtube }}
                         <li class="list-inline-item">
                             <a href="{{.}}" target="_blank">
                                 <i class="tf-ion-social-youtube"></i>
