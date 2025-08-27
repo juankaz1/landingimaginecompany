@@ -1,20 +1,26 @@
 {{ if .Site.Params.aboutSm.enable }}
-{{ "<!-- Start About Section -->" | safeHTML }}
-<section class="about-2 section bg-gray" id="about">
+{{ "<!-- Start Star Agency Section -->" | safeHTML }}
+<section class="about section-sm" id="star-agency">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-5 centrar_items text-center">
-                {{ with .Site.Params.aboutSm.title }}
-                    <h2>{{ . }}</h2>
-                {{ end }}
+        <div class="row mb-50 justify-content-center">
+            <div class="col-md-5 col-sm-12">
+                <div class="content">
+                    <h2>Star Agency</h2>
+                    <p>
+                        {{ with .Site.Params.aboutSm.description }}{{ . | markdownify }}{{ end }}
+                    </p>
+                </div>
             </div>
-            <div class="col-12 col-md-7">
-                {{ with .Site.Params.aboutSm.description }}
-                    <p>{{ . | markdownify }}</p>
-                {{ end }}
+            <div class="col-md-5 col-sm-12 text-center offset-md-1 imagen_centrar">
+                <div class="embed-responsive embed-responsive-16by9 rounded shadow">
+                    <iframe class="embed-responsive-item" 
+                            src="https://www.youtube.com/embed/AEu53xADG8U" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
             </div>
         </div>
     </div>
 </section>
-{{ "<!-- End About section -->" | safeHTML }}
+{{ "<!-- End Star Agency section -->" | safeHTML }}
 {{ end }}

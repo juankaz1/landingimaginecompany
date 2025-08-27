@@ -18,14 +18,19 @@
                             <img src="{{ .image | absURL }}" class="img-fluid rounded shadow tamanio_ip" alt="about-image">
                         </div>
                     </div>
-                {{ else }}                
+                                {{ else }}                
                     <div class="row mb-50 justify-content-center">
                         <div class="col-md-5 col-sm-12 text-center offset-md-1 imagen_centrar">
-                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+                            <div class="embed-responsive embed-responsive-16by9 rounded shadow">
+                                <iframe class="embed-responsive-item" 
+                                        src="https://www.youtube.com/embed/1ri46kz2sXs" 
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
                         </div>
                         <div class="col-md-5 col-sm-12">
                             <div class="content">
-                                <h2>{{ .title }}</h2>
+                                  <h2>{{ .title }}</h2>
                                 <p>
                                     {{ .description }}
                                 </p>
