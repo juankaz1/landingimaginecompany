@@ -1,0 +1,42 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.trayectoria_audio }}
+    {{ if .enable }}
+    {{ "<!-- About Section Start -->" | safeHTML }}
+    <section class="about section-sm" id="about">
+        <div class="container">
+            {{ range .item }}
+                {{ if .positionRight }}
+                    <div class="row mt-50 justify-content-center">
+                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                            <div class="content">
+                                <p>
+                                    {{ .description }}
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-sm-12 text-center centrar_img">
+                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow tamanio_ip" alt="about-image">
+                        </div>
+                    </div>
+                {{ else }}                
+                    <div class="row mb-50 justify-content-center">
+                        <div class="col-md-5 col-sm-12 text-center offset-md-1 imagen_centrar">
+                            <img src="{{ .image | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="content">
+                                <h2>{{ .title }}</h2>
+                                <p>
+                                    {{ .description }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    {{"<!-- About section End -->" | safeHTML}}
+    {{ end }}
+{{ end }}
+

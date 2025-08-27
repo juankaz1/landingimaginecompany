@@ -1,0 +1,87 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.servicios_publicidad }}
+{{ if .enable }}
+{{ "<!-- Team Section Start -->" | safeHTML }}
+<section class="team section bg-gray" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    {{ with .topTitle }}<h4>{{ . }}</h4>{{ end }}
+                    {{ with .title }}
+                        <h2>{{ . }}</h2>
+                        <span class="border"></span>
+                    {{ end }}
+                    {{ with .subtitle }}<p>{{ . }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="row imagine_products">
+            {{ range .member }}
+                {{ "<!-- team member -->" | safeHTML }}
+                <div class="col-12 col-md-3 col-sm-3">
+                    <div class="team-member text-center">
+                        <div class="member-photo">
+                            <img class="img-fluid" src="{{.image | absURL }}" alt="team people">
+                        </div>
+                        {{ "<!-- member name & designation -->" | safeHTML }}
+                        <div class="member-content">
+                            <h3>{{ .name }}</h3>
+                            <div class="text-justify">
+                                <span>{{ .designation }}</span>
+                                <p>{{ .description }}</p>
+                            </div>
+                            <ul class="list-inline">
+                                {{ with .facebookURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-facebook"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                                {{ with .twitterURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-twitter"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                                {{ with .gplusURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-google-outline"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                                {{ with .dribbbleURL }}
+                                <li class="list-inline-item">
+                                    <a href="{{.}}">
+                                        <i class="tf-ion-social-dribbble"></i>
+                                    </a>
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {{ "<!-- end team member -->" | safeHTML }}
+            {{ end }}
+            <div class="row mt-50 justify-content-center product_pub team-member  text-center">
+                <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                    <div class="content member-content">
+                        <h4>{{ .ext_prod_name }}</h4>
+                        <p>
+                            {{ .ext_prod_descrip }}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-sm-12 text-center">
+                    <img src="{{ .ext_prod_img | absURL }}" class="img-fluid rounded shadow" alt="about-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- End section -->" | safeHTML }}
+{{ end }}
+{{ end }}

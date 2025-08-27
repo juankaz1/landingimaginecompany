@@ -1,0 +1,104 @@
+{{ if .Site.Params.hero.enable }}
+{{ "<!-- Hero Area -->" | safeHTML }}
+<section class="hero-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="video-player">
+                    <img class="img-fluid rounded" src="{{ with .Site.Params.hero.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
+                    <a class="play-icon" href="javascript:void(0)">
+                        <i class="tf-ion-play" data-video="{{ with .Site.Params.hero.videoURL }}{{.}}{{ end }}?autoplay=1"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    <ul>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="./tecnologia/" > 
+                                    <figure class="logo_area">
+                                        <img src="images/home/tec.png" alt="tecnologia"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="./tecnologia/" > 
+                                        <h3> Tecnología</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="./medical/" > 
+                                    <figure class="logo_area">
+                                        <img src="images/home/medical.png" alt="medical"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="./medical/"> 
+                                        <h3> Comunicación Médica</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="./audiovisualycomercial/"> 
+                                    <figure class="logo_area">
+                                        <img src="images/home/video.png" alt="Productora"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="./audiovisualycomercial/"> 
+                                        <h3> Productora</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="area_empresa">
+                                <a href="./low/"> 
+                                    <figure class="logo_area">
+                                        <img src="images/home/low.png" alt="lowcost"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="./low/"> 
+                                        <h3> Productos LowCost</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="area_empresa">
+                                <a href="./publicidad_mercadeo"> 
+                                    <figure class="logo_area">
+                                        <img src="images/home/marketin.png" alt="logo_area"/>
+                                    </figure> 
+                                </a>
+                                <div class="texto_area">
+                                    <a href="./publicidad_mercadeo"> 
+                                        <h3> Agencia Publicitaria</h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        {{ if .Site.Params.hero.button }}
+        <ul class="list-inline wow fadeInUp text-center button" data-wow-duration=".5s" data-wow-delay=".7s">
+            <li class="list-inline-item">
+                <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
+            </li>
+        </ul>
+    {{ end }}
+
+    </div>
+</section>
+{{ end }}
