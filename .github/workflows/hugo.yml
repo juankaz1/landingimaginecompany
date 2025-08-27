@@ -9,6 +9,12 @@ on:
   # Te permite ejecutar manualmente desde la pestaña Actions
   workflow_dispatch:
 
+# Permisos necesarios para GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 # Permite que solo un deployment concurrente, omitiendo runs que están en cola entre el run en progreso y el último en cola
 concurrency:
   group: "pages"
