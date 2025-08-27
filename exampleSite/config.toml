@@ -57,7 +57,7 @@ enable = false
 expire_days = 2
 
 # Hero Area Section
-[Languages.en.params.hero]
+[params.hero]
 enable = true
 heading = "Conoce nuestro trabajo."
 description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
@@ -87,7 +87,7 @@ enable_footer = true
 
 
 # Hero Area Section video_init
-[Languages.en.params.video_init]
+[params.video_init]
 enable = true
 videoThumb = "images/ibanner.gif"
 
@@ -106,7 +106,7 @@ title = "Blog."
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 
 # Contact Section
-[Languages.en.params.contact]
+[params.contact]
 enable = true
 title = "Escríbenos"
 subtitle = "Estamos aquí para responder tus preguntas y ayudarte a ser lo que imaginas."
