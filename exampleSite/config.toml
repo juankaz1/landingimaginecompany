@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Imagine Company SAS - Soluciones Audiovisuales y Tecnológicas"
-theme = "repo"
+# theme = "repo"
 summaryLength = 10
 
 # Build robots.txt file
